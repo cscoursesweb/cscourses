@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.cscourses.dev/sitemap.xml</loc>
+      <lastmod>2023-01-06</lastmod>
       <lastmod>2023-01-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>1.0</priority>
@@ -1475,6 +1475,11 @@
     </url>
     <url>
         <loc>https://www.cscourses.dev/articles/How%20to%20change%20the%20default%20application%20for%20WEBLOC%20files?.html</loc>
+        <lastmod>2023-01-06</lastmod>
+        <publication_date>2023-01-06</publication_date>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Is%20there%20any%20way%20to%20test%20the%20ability%20to%20access%20websites%20on%20different%20network%20connections%20without%20turning%20network%20connections%20on%20and%20off?.html</loc>
         <lastmod>2023-01-06</lastmod>
         <publication_date>2023-01-06</publication_date>
     </url>
