@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>How to Handle TaskCanceledException When Requesting an Application to Stop During IHostedService.StartAsync</title>
+                <meta name="description" content="When developing an application using IHostedService, it is important to know how to handle a TaskCanceledException when requesting the application to stop. This article will provide a step-by-step guide on how to properly handle a TaskCanceledException when requesting an application to stop during IHostedService.StartAsync. We will discuss the best practices for handling the exception, as well as how to properly implement the necessary code to ensure the application stops gracefully. Finally, we will provide some tips on how to troubleshoot any issues that may arise.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">How to Handle TaskCanceledException When Requesting an Application to Stop During IHostedService.StartAsync</h1>
+                    <div class="article-content">
+                        <p class="article-text">Requesting for application to stop during IHostedService.StartAsync results in an unhandled TaskCanceledException</p><br>
+                        
+        <p class="article-text">The IHostedService interface is a powerful tool for managing the lifecycle of an application. It allows developers to create services that can be started, stopped, and restarted as needed. However, if an application is requested to stop during the IHostedService.StartAsync method, it can result in an unhandled TaskCanceledException.</p><br><p class="article-text">The TaskCanceledException is thrown when a task is canceled before it is completed. This can happen when a user requests an application to stop while the IHostedService.StartAsync method is running. The IHostedService.StartAsync method is responsible for starting the application and any services that it requires. If the application is requested to stop while the IHostedService.StartAsync method is running, the task will be canceled and the TaskCanceledException will be thrown.</p><br><p class="article-text">The best way to avoid this issue is to ensure that the IHostedService.StartAsync method is not interrupted. This can be done by using a CancellationTokenSource to create a CancellationToken that can be passed to the IHostedService.StartAsync method. The CancellationToken can then be used to check if the application has been requested to stop. If the application has been requested to stop, the IHostedService.StartAsync method can be exited gracefully without throwing an exception.</p><br>
+                        <p class="article-text">It is also important to ensure that any services that are started by the IHostedService.StartAsync method are also stopped gracefully. This can be done by using the CancellationToken to check if the application has been requested to stop. If the application has been requested to stop, the services can be stopped gracefully before the IHostedService.StartAsync method exits.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 04/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        

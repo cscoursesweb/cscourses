@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--CONFIGURATION-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+        <title>cscourses.dev - articles index</title>
+        <meta name="description" content="We are a leading provider of high-quality online computer science and programming articles. Our articles are designed for both beginners and experienced developers looking to expand their knowledge and skills. Our team of expert has developed a wide range of articles covering a variety of topics, including web development, mobile app development, data science, machine learning, and more. Whether you're looking to learn a new programming language, build your own website or app, or advance your career as a developer, we have an article that's right for you.">
+        
+        <!--STYLE-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+        <style>
+        /*HOME*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100%;
+            position: relative;
+            font-family: 'poppins', sans-serif;
+        }
+
+        ::selection{
+            background: #1b1b1b;
+            color: #fff;
+        }
+
+        /*ARTICLE*/
+        .course-link{
+            text-decoration: underline;
+            display: list-item; /* This has to be "list-item"*/
+            margin-left : 1em;
+            color: #1b1b1b;
+        }
+
+        /*BUTTON SETTINGS*/
+        .btn{
+            padding: 10px 20px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.7);
+            color: #000;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        .btn.dark{
+            background: #1b1b1b;
+            color: #fff;
+        }
+
+        /*SECTION*/
+        .blogs-section{
+            width: 100%;
+            padding: 50px 5vw;
+            display: grid;
+            /*
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 80px;
+            */
+        }
+
+        .blog-image{
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /*cover*/
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .blog-overview{
+            margin: 10px 0 20px;
+            line-height: 30px;
+        }
+
+        /*NAVBAR*/
+        .navbar{
+            width: 100%;
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5vw;
+            background: #fff;
+            z-index: 9;
+        }
+
+        .links-container{
+            display: flex;
+            list-style: none;
+        }
+
+        .link{
+            padding: 10px;
+            margin-left: 10px;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: #000;
+        }
+
+        #navbar-logo{
+            height: 25px;
+            width: 25px;
+        }
+
+        /*DROPDOWN MENU*/
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            margin-left: 10px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+            border-radius: 10px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-element{
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            color: black;
+        }
+
+
+        .dropdown-element:hover{
+            background-color: rgba(0,0,0,0.2);
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        /*TITLE*/
+        .blog-title{
+            text-decoration: underline;
+        }
+
+        /*LINKS*/
+        a{
+            text-decoration: underline;
+            color: black;
+        }
+        </style>
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-64GTLWQV26');
+        </script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="links-container">
+                <div class="dropdown">
+                    <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                </div>
+
+                <div class="dropdown">
+                    <span>typing</span>
+                    <div class="dropdown-content">
+                        <a href="./typing/words.html" class="dropdown-element">words</a><br>
+                        <a href="./typing/c.html" class="dropdown-element">c/cpp</a><br>
+                        <a href="./typing/python.html" class="dropdown-element">python</a><br>
+                        <a href="./typing/js.html" class="dropdown-element">js</a><br>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/7545900/pexels-photo-7545900.jpeg?auto=compress&cs=tinysrgb&w=1600" class="blog-image" alt="matplotlib 3d graph">
+                <h1 class="blog-title">Articles.</h1>
+                <!--THIS IS A BALISE HELPING TO BUILD THE BLOG DO NOT TAKE CARE-->
+                <a href="./articles/How%20to%20change%20the%20default%20application%20for%20WEBLOC%20files.html" class="course-link">How to change the default application for WEBLOC files</a>

@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>"&lt;br&gt;" gets translated to actual tag, possible XSS?</title>
+                <meta name="description" content="This article provides an overview of the potential risks associated with the use of the HTML tag “&lt;br&gt;” and how it can be used to exploit a website for Cross-Site Scripting (XSS) attacks. It explains the basics of XSS and how it can be used to inject malicious code into a website, as well as the potential consequences of such an attack. It also provides tips on how to protect against XSS attacks, such as using input validation and output encoding. Finally, it provides resources for further reading on the topic.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">"&lt;br&gt;" gets translated to actual tag, possible XSS?</h1>
+                    <div class="article-content">
+                        <p class="article-text">The short answer to the question of whether the HTML tag “&lt;br&gt;” gets translated to a possible XSS is no. The “&lt;br&gt;” tag is a line break tag, which is used to separate lines of text in HTML documents. It does not contain any executable code, and therefore cannot be used to inject malicious code into a web page.</p><br>
+                        
+        <p class="article-text">However, it is important to note that while the “&lt;br&gt;” tag itself does not pose a risk of XSS, it can be used in conjunction with other HTML tags to create a potential XSS vulnerability. For example, if the “&lt;br&gt;” tag is used to separate a malicious script from the rest of the HTML code, then it could be used to inject malicious code into a web page.</p><br><figure><img src="https://images.pexels.com/photos/7968061/pexels-photo-7968061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="a-woman-sitting-at-the-table"><figcaption>picture by Ron Lach</figcaption></figure>
+                        <p class="article-text">In order to prevent XSS attacks, it is important to ensure that all HTML tags are properly encoded and that any user-supplied input is properly sanitized. This means that any potentially malicious code should be removed or escaped before it is rendered in the browser. Additionally, it is important to use a web application firewall (WAF) to detect and block any malicious requests.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 05/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        

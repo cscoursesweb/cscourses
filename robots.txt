@@ -1,0 +1,14 @@
+# robots.txt file for cscourses.dev
+# This file was made based on YouTube's robots.txt file,
+# thank you for doing it if you see this (which is unlikely to happen)
+
+User-agent: Mediapartners-Google*
+
+User-agent: *
+
+Allow: /index.html
+Allow: /typing
+Allow: /articles
+
+Sitemap: https://www.cscourses.dev/sitemap.xml
+Sitemap: https://www.cscourses.dev/images sitemap.xml

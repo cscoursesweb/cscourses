@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>How to connect to SSH-server over TOR-network?</title>
+                <meta name="description" content="This article will provide a step-by-step guide on how to connect to an SSH-server over a TOR-network. We will cover the necessary software and configurations needed to establish a secure connection. We will also discuss the advantages and disadvantages of using a TOR-network for SSH-connections. Finally, we will provide some tips and best practices for using TOR-networks for SSH-connections.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">How to connect to SSH-server over TOR-network?</h1>
+                    <div class="article-content">
+                        <p class="article-text">Connecting to an SSH server over a TOR network is a great way to increase your online security and privacy. SSH (Secure Shell) is a protocol that allows you to securely access a remote computer over an unsecured network. TOR (The Onion Router) is a network of virtual tunnels that allows users to remain anonymous while browsing the web. By connecting to an SSH server over a TOR network, you can ensure that your data is encrypted and your identity is hidden.</p><br>
+                        
+        <p class="article-text">In this article, we will explain how to connect to an SSH server over a TOR network. Before you begin, you will need to have a TOR browser installed on your computer. You can download the TOR browser from the official website.</p><br><figure><img src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="photo-of-woman-taking-notes"><figcaption>picture by Ivan Samkov</figcaption></figure><p class="article-text">Once you have the TOR browser installed, you will need to find an SSH server that is accessible over the TOR network. You can find a list of SSH servers that are accessible over the TOR network on the TOR Project website.</p><br><p class="article-text">Once you have found an SSH server that is accessible over the TOR network, you will need to configure your SSH client to connect to the server. If you are using the OpenSSH client, you will need to edit the ssh_config file and add the following lines:</p><br><p class="article-text">Host *</p><br><p class="article-text">ProxyCommand nc -x localhost:9050 %h %p</p><br><figure><img src="https://images.pexels.com/photos/5146492/pexels-photo-5146492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="man-people-woman-apple"><figcaption>picture by Stefan Coders</figcaption></figure><p class="article-text">This will tell the SSH client to use the TOR network to connect to the SSH server.</p><br><p class="article-text">Once you have configured your SSH client, you can connect to the SSH server by running the following command:</p><br><figure><img src="https://images.pexels.com/photos/9064717/pexels-photo-9064717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="man-and-woman-sitting-on-the-couch"><figcaption>picture by RODNAE Productions</figcaption></figure><p class="article-text">ssh username@hostname</p><br><p class="article-text">Replace username with your username and hostname with the hostname of the SSH server.</p><br><figure><img src="https://images.pexels.com/photos/5848614/pexels-photo-5848614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="grayscale-photo-of-padlock-on-metal-fence"><figcaption>picture by Markus Winkler</figcaption></figure>
+                        <p class="article-text">Once you have connected to the SSH server, you can use it as you would any other SSH server. You can use it to securely transfer files, run commands, and access remote computers.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 05/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        

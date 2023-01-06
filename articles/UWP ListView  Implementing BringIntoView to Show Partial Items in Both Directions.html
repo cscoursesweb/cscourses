@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>UWP ListView  Implementing BringIntoView to Show Partial Items in Both Directions</title>
+                <meta name="description" content="This article will provide a comprehensive guide to using the BringIntoView method in the Universal Windows Platform (UWP) ListView control. We will discuss how to use this method to show partial items in both directions, as well as provide code examples to help you get started. We will also discuss the advantages and disadvantages of using this method, and provide tips for troubleshooting any issues you may encounter. By the end of this article, you should have a better understanding of how to use the BringIntoView method in the UWP ListView control.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">UWP ListView  Implementing BringIntoView to Show Partial Items in Both Directions</h1>
+                    <div class="article-content">
+                        <p class="article-text">UWP ListView - How to Update BringIntoView to Show Part of Next Item, in Both Directions</p><br>
+                        
+        <p class="article-text">The Universal Windows Platform (UWP) ListView is a powerful control for displaying data in a list format. It allows developers to create a list of items that can be scrolled through and interacted with. One of the features of the ListView is the ability to bring an item into view. This feature allows developers to scroll to a specific item in the list and bring it into view.</p><br><p class="article-text">However, the default behavior of the BringIntoView method only brings the item into view, without showing any of the next item. This can be a problem if the user wants to see part of the next item in the list. Fortunately, there is a way to update the BringIntoView method to show part of the next item, in both directions.</p><br><p class="article-text">The first step is to create a custom ListView control. This can be done by creating a new class that inherits from the ListView control. In the new class, override the BringIntoView method. This method takes two parameters: the item to bring into view and a boolean value that indicates whether the item should be scrolled into view.</p><br><p class="article-text">In the overridden method, set the boolean value to true. This will cause the ListView to scroll the item into view. Then, set the ListView’s ScrollViewer’s VerticalOffset property to the item’s height plus half of the next item’s height. This will cause the ListView to scroll the item into view, while also showing part of the next item.</p><br><p class="article-text">To make the ListView scroll in both directions, set the ListView’s ScrollViewer’s HorizontalOffset property to the item’s width plus half of the next item’s width. This will cause the ListView to scroll the item into view, while also showing part of the next item in both directions.</p><br>
+                        <p class="article-text">Once the custom ListView control is created, it can be used in place of the default ListView control. This will allow the ListView to show part of the next item, in both directions, when the BringIntoView method is called.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 04/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        

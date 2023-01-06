@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>How to Configure Apache to Forward HTTPS Requests to an Intranet Proxy</title>
+                <meta name="description" content="This article will provide step-by-step instructions on how to configure Apache to forward HTTPS requests to an intranet proxy. We will cover the necessary Apache modules, configuration settings, and other considerations for setting up a secure connection. We will also discuss the potential security risks associated with this setup and how to mitigate them. Finally, we will provide troubleshooting tips for common issues that may arise.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">How to Configure Apache to Forward HTTPS Requests to an Intranet Proxy</h1>
+                    <div class="article-content">
+                        <p class="article-text">Forwarding HTTP Requests from URL Apache to Intranet Proxy</p><br>
+                        
+        <p class="article-text">When it comes to web hosting, Apache is one of the most popular web servers in the world. It is used by millions of websites and is known for its reliability and flexibility. However, when it comes to accessing content from an intranet, Apache may not be the best choice. This is because Apache does not natively support forwarding HTTP requests from a URL to an intranet proxy.</p><br><p class="article-text">Fortunately, there are ways to configure Apache to forward HTTP requests from a URL to an intranet proxy. This article will explain how to do this.</p><br><p class="article-text">The first step is to configure Apache to forward requests from a URL to an intranet proxy. This can be done by adding the following lines to the Apache configuration file:</p><br><figure><img src="https://images.pexels.com/photos/4793164/pexels-photo-4793164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="woman-pressing-button-of-photo-camera"><figcaption>picture by Anete Lusina</figcaption></figure><p class="article-text">ProxyPass / http://intranet.example.com/</p><br><p class="article-text"></p><br><p class="article-text"></p><br><p class="article-text"></p><br><p class="article-text">ProxyPassReverse / http://www.example.com/</p><br><p class="article-text">These lines tell the intranet proxy to forward all requests from the URL to the web server.</p><br><figure><img src="https://images.pexels.com/photos/479454/pexels-photo-479454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="brown-cardboard-box"><figcaption>picture by icon0.com</figcaption></figure><p class="article-text">Finally, you need to restart Apache for the changes to take effect. Once Apache has been restarted, all requests from the URL will be forwarded to the intranet proxy.</p><br>
+                        <p class="article-text">Forwarding HTTP requests from a URL to an intranet proxy is a relatively simple process. However, it is important to ensure that the Apache and intranet proxy configurations are correct. If the configurations are incorrect, requests may not be forwarded correctly.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 04/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        

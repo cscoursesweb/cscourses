@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>Using ZipEntry to Retrieve Bytes Without ByteArrayOutputStream</title>
+                <meta name="description" content="This article will provide a step-by-step guide on how to use the ZipEntry class to retrieve bytes from a ZIP file without the need for a ByteArrayOutputStream. We will discuss the advantages of using ZipEntry over other methods, and provide examples of how to use the class in a variety of scenarios. We will also discuss potential pitfalls and best practices for using ZipEntry to ensure successful retrieval of bytes. Finally, we will provide a summary of the key points discussed in the article.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">Using ZipEntry to Retrieve Bytes Without ByteArrayOutputStream</h1>
+                    <div class="article-content">
+                        <p class="article-text">ZipEntry is a class in the Java library that allows you to access the contents of a ZIP file. It provides methods for reading and writing data from the ZIP file, as well as for obtaining information about the entries in the ZIP file. One of the most common tasks when working with ZIP files is to get the bytes from a ZipEntry without using a ByteArrayOutputStream. This article will explain how to do this.</p><br>
+                        
+        <p class="article-text">The first step is to create a ZipFile object. This object will provide access to the contents of the ZIP file. To create a ZipFile object, you need to provide the path to the ZIP file. Once the ZipFile object is created, you can use it to access the entries in the ZIP file.</p><br><figure><img src="https://images.pexels.com/photos/6152393/pexels-photo-6152393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="grand-mansion-staircase-near-ornamental-entrance"><figcaption>picture by Meruyert Gonullu</figcaption></figure><p class="article-text">The next step is to get the ZipEntry object for the file you want to read. You can do this by calling the getEntry() method on the ZipFile object. This method takes the name of the file as a parameter and returns a ZipEntry object.</p><br><p class="article-text">Once you have the ZipEntry object, you can use it to read the bytes from the file. To do this, you need to call the getInputStream() method on the ZipEntry object. This method returns an InputStream object, which can be used to read the bytes from the file.</p><br><p class="article-text">The InputStream object provides a read() method, which can be used to read the bytes from the file. The read() method takes a byte array as a parameter and returns the number of bytes read. You can use this method to read the bytes from the file and store them in a byte array.</p><br>
+                        <p class="article-text">Once you have the bytes from the file, you can use them as you wish. For example, you can write them to a file or use them in your application.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 05/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        
