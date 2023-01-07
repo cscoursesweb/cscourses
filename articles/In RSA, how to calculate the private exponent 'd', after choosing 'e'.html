@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>In RSA, how to calculate the private exponent 'd', after choosing 'e'?</title>
+                <meta name="description" content="This article will provide a step-by-step guide on how to calculate the private exponent 'd' in RSA encryption, after choosing the public exponent 'e'. We will explain the mathematical formula used to calculate 'd', and provide examples to illustrate the process. We will also discuss the importance of choosing a secure 'e' value, and the implications of a weak 'e' value. Finally, we will provide some tips on how to choose a secure 'e' value.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">In RSA, how to calculate the private exponent 'd', after choosing 'e'?</h1>
+                    <div class="article-content">
+                        <p class="article-text">RSA is a public-key cryptography algorithm that is widely used for secure data transmission. It is based on the difficulty of factoring large numbers. In RSA, two keys are generated: a public key and a private key. The public key is used to encrypt data, while the private key is used to decrypt data.</p><br>
+                        
+        <p class="article-text">In RSA, the public key consists of two numbers: the modulus 'n' and the encryption exponent 'e'. The private key consists of two numbers: the modulus 'n' and the decryption exponent 'd'. The modulus 'n' is the same for both the public and private keys.</p><br><figure><img src="https://images.pexels.com/photos/9655279/pexels-photo-9655279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="blue-sky-and-white-clouds"><figcaption>picture by Vi Tran</figcaption></figure><p class="article-text">When using RSA, the first step is to choose two prime numbers, 'p' and 'q'. These two prime numbers are multiplied together to form the modulus 'n'. The encryption exponent 'e' is then chosen. This is usually a number between 1 and 'n' that is relatively prime to 'n'.</p><br><p class="article-text">Once the encryption exponent 'e' is chosen, the decryption exponent 'd' can be calculated. This is done using the Extended Euclidean Algorithm. This algorithm takes the modulus 'n' and the encryption exponent 'e' as inputs and calculates the decryption exponent 'd'.</p><br><figure><img src="https://images.pexels.com/photos/7319070/pexels-photo-7319070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="photo-of-person-taking-down-notes"><figcaption>picture by cottonbro studio</figcaption></figure><p class="article-text">The Extended Euclidean Algorithm works by finding the greatest common divisor (GCD) of 'n' and 'e'. The GCD is then used to calculate the decryption exponent 'd'. The decryption exponent 'd' is the inverse of the encryption exponent 'e' modulo 'n'.</p><br><p class="article-text">To calculate the decryption exponent 'd', the Extended Euclidean Algorithm is used to find the GCD of 'n' and 'e'. The GCD is then used to calculate the decryption exponent 'd'. The decryption exponent 'd' is the inverse of the encryption exponent 'e' modulo 'n'.</p><br><figure><img src="https://images.pexels.com/photos/9808642/pexels-photo-9808642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="terra-pavilion-in-dubai"><figcaption>picture by San Photography</figcaption></figure>
+                        <p class="article-text">Once the decryption exponent 'd' is calculated, the private key is complete. The private key consists of the modulus 'n' and the decryption exponent 'd'. This private key can then be used to decrypt data that was encrypted using the public key.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 07/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        

@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>How to understand the definition of $\lambda_i$ used in the return estimator proposed in the paper "Human-level Atari 200x faster"?</title>
+                <meta name="description" content="This article will provide an explanation of the definition of $\lambda_i$ used in the return estimator proposed in the paper "Human-level Atari 200x faster". We will discuss the meaning of $\lambda_i$, how it is used in the return estimator, and how it affects the performance of the estimator. We will also provide examples of how $\lambda_i$ can be used to improve the accuracy of the return estimator. Finally, we will discuss the implications of using $\lambda_i$ in the return estimator and how it can be used to improve the performance of the estimator.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">How to understand the definition of $\lambda_i$ used in the return estimator proposed in the paper "Human-level Atari 200x faster"?</h1>
+                    <div class="article-content">
+                        <p class="article-text">The paper “Human-level Atari 200x faster” proposes a return estimator that uses the concept of $\lambda_i$ to measure the expected return of a given state. Understanding the definition of $\lambda_i$ is essential to understanding the return estimator and how it works.</p><br>
+                        
+        <p class="article-text">In the paper, $\lambda_i$ is defined as the “discounted sum of future rewards”. This means that $\lambda_i$ is a measure of the expected return of a given state. It is calculated by summing up the discounted rewards of all future states that can be reached from the current state. The discount factor is used to reduce the importance of rewards that are further away in the future.</p><br><figure><img src="https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="plasma-ball-illustration"><figcaption>picture by Pixabay</figcaption></figure><p class="article-text">To calculate $\lambda_i$, the paper proposes a recursive formula. This formula is based on the idea that the expected return of a given state is equal to the immediate reward plus the discounted expected return of the next state. This formula can be expressed as follows:</p><br><p class="article-text">$\lambda_i = r_i + \gamma \lambda_{i+1}$</p><br><p class="article-text">where $r_i$ is the immediate reward for the current state and $\gamma$ is the discount factor.</p><br><p class="article-text">The paper also proposes a “bootstrapping” approach to calculating $\lambda_i$. This approach is based on the idea that the expected return of a given state can be estimated by using the expected return of the next state. This approach can be expressed as follows:</p><br><figure><img src="https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="tax-documents-on-the-table"><figcaption>picture by Nataliya Vaitkevich</figcaption></figure><p class="article-text">$\lambda_i \approx r_i + \gamma \hat{\lambda}_{i+1}$</p><br>
+                        <p class="article-text">where $\hat{\lambda}_{i+1}$ is the estimated expected return of the next state.</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 07/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        
