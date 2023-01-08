@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <lastmod>2023-01-08</lastmod>
-      <lastmod>2023-01-06</lastmod>
+      <lastmod>2023-01-08</lastmod>
         <changefreq>yearly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2739,6 +2739,21 @@
     </url>
     <url>
         <loc>https://www.cscourses.dev/articles/"128-bit%20security"%20or%20"128%20bits%20of%20security"?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+        <publication_date>2023-01-08</publication_date>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Why%20does%20AES%20ciphertext%20entropy%20always%20close%20to%208?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+        <publication_date>2023-01-08</publication_date>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Best%20way%20to%20reduce%20chance%20of%20hash%20collisions:%20Multiple%20hashes,%20or%20larger%20hash?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+        <publication_date>2023-01-08</publication_date>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Will%20my%20Q%20values%20keep%20going%20up%20forever?.html</loc>
         <lastmod>2023-01-08</lastmod>
         <publication_date>2023-01-08</publication_date>
     </url>
