@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+      <loc>https://www.cscourses.dev/index.html</loc>
       <lastmod>2023-01-08</lastmod>
-      <lastmod>2023-01-08</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>1.0</priority>
+      <changefreq>yearly</changefreq>
+      <priority>1.0</priority>
     </url>
     <url>
       <loc>https://www.cscourses.dev/articles</loc>
@@ -2236,6 +2236,110 @@
     </url>
     <url>
         <loc>https://www.cscourses.dev/articles/Is%20it%20possible%20to%20suspend/pause%20the%20Safari%20download%20queue?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20restore%20apps%20after%20factory%20reset%20finished?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20use%20LSTM%20for%20time%20series%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Why%20text%20summarization%20using%20restricted%20Boltzmann%20machine%20is%20a%20correct%20method?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Are%20there%20techniques%20to%20somehow%20"rank"%20these%20URIs%20based%20on%20other%20properties?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Telit%20LM960a18%20Module%20bricked%20-%20USB%20deactivated%20-%20How%20to%20unlock?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20can%20I%20arrange%20the%20applications%20in%20right-click%20context%20menu%20in%20Windows%2010?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20print%20code%20from%20GitHub.com%20with%20its%20syntax-highlighting?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Why%20can't%20I%20find%20dart2native%20in%20the%20dart-sdk?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20have%20Numbers%20automatically%20sort%20descending?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+        <lastmod>2023-01-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
         <lastmod>2023-01-08</lastmod>
     </url>
 </urlset>
