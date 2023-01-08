@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <lastmod>2023-01-07</lastmod>
+      <lastmod>2023-01-08</lastmod>
       <lastmod>2023-01-06</lastmod>
         <changefreq>yearly</changefreq>
         <priority>1.0</priority>
@@ -2607,5 +2607,10 @@
         <loc>https://www.cscourses.dev/articles/Keep%20old%20mac%20from%20sleeping%20only%20when%20external%20display%20is%20connected?%20.html</loc>
         <lastmod>2023-01-07</lastmod>
         <publication_date>2023-01-07</publication_date>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20install%202%20windows%20(windows%207%20and%20Windows%2010)%20+%20macOS%20Catalina%20into%20a%20iMac%202012?%20.html</loc>
+        <lastmod>2023-01-08</lastmod>
+        <publication_date>2023-01-08</publication_date>
     </url>
 </urlset>
