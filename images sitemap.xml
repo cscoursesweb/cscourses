@@ -2670,4 +2670,31 @@
     <image:image><image:loc>https://images.pexels.com/photos/6532373/pexels-photo-6532373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
     <image:image><image:loc>https://images.pexels.com/photos/5598296/pexels-photo-5598296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/What%20are%20some%20common%20graph-structured%20environments%20for%20use%20in%20reinforcement%20learning?.html</loc>
+    <image:image><image:loc>https://images.pexels.com/photos/590011/pexels-photo-590011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/Is%20it%20possible%20to%20create%20a%20distance%20estimation%20model%20from%20something%20like%20the%20KITTI%20dataset?.html</loc>
+    <image:image><image:loc>https://images.pexels.com/photos/13629145/pexels-photo-13629145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/How%20to%20handle%20the%20size%20difference%20of%20highway%20network%20or%20residual%20network%20in%20cnn?.html</loc>
+    <image:image><image:loc>https://images.pexels.com/photos/8192142/pexels-photo-8192142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/Should%20a%20CNN%20generalize%20to%20arbitrary%20positions%20in%20the%20data?.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/What%20is%20a%20result%20of%20a%20cross%20validation%20process?.html</loc>
+  </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/How%20are%20NNs%20output%20setup%20for%20games%20that%20allow%20multiple%20actions%20each%20turn%20and%20have%20very%20large%20sets%20of%20possible%20actions?.html</loc>
+    <image:image><image:loc>https://images.pexels.com/photos/5082554/pexels-photo-5082554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
+    <image:image><image:loc>https://images.pexels.com/photos/3755836/pexels-photo-3755836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.cscourses.dev/articles/Is%20it%20possible%20to%20suspend/pause%20the%20Safari%20download%20queue?.html</loc>
+    <image:image><image:loc>https://images.pexels.com/photos/6382486/pexels-photo-6382486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</image:loc></image:image>
+  </url>
 </urlset>
