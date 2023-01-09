@@ -1,0 +1,65 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <!--CONFIGURATION-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel = "icon" type = "image/png" href="https://lh3.googleusercontent.com/dLvQMwhUNhu_eY7ZCqpCgaSlg1BkWw6jr3VTRpjMP2hh-j_GzIsBaw876orr0vhIhV4=w2400">
+                <title>How to convert cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey to ecdsa.keys.SigningKey? </title>
+                <meta name="description" content="This article will provide a step-by-step guide on how to convert cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey to ecdsa.keys.SigningKey. We will cover the necessary tools and libraries needed, the process of conversion, and any potential issues that may arise. By the end of this article, you should have a better understanding of how to convert cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey to ecdsa.keys.SigningKey.">
+
+                <!--STYLE-->
+                <link rel="stylesheet" href="styles.css">
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-64GTLWQV26');
+                </script>
+            </head>
+            <body>
+                <nav class="navbar">
+                    <ul class="links-container">
+                        <div class="dropdown">
+                            <span><a href="https://www.cscourses.dev/" class="link">Home</a></span>
+                        </div>
+
+                        <div class="dropdown">
+                            <span>typing</span>
+                            <div class="dropdown-content">
+                                <a href="../typing/words.html" class="dropdown-element">words</a><br>
+                                <a href="../typing/c.html" class="dropdown-element">c/cpp</a><br>
+                                <a href="../typing/python.html" class="dropdown-element">python</a><br>
+                                <a href="../typing/js.html" class="dropdown-element">js</a><br>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+
+                <!--ARTICLE BLOCK-->
+                
+                <div class="article-block">
+                    <h1 class="title">How to convert cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey to ecdsa.keys.SigningKey? </h1>
+                    <div class="article-content">
+                        <p class="article-text">Cryptography is a powerful tool for protecting data and ensuring secure communication. It is used in a variety of applications, from secure web browsing to digital signatures. One of the most popular cryptographic algorithms is the Elliptic Curve Digital Signature Algorithm (ECDSA). ECDSA is a public-key cryptosystem that uses elliptic curves to generate digital signatures.</p><br>
+                        
+        <p class="article-text">The cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey class is a Python library that provides an interface to the OpenSSL library for working with elliptic curve private keys. This class is used to generate and manage private keys for ECDSA. However, in order to use the private key for signing, it must be converted to an ecdsa.keys.SigningKey object.</p><br><p class="article-text">In this article, we will discuss how to convert a cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey object to an ecdsa.keys.SigningKey object.</p><br><p class="article-text">The first step is to create an instance of the cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey class. This can be done by passing in the private key as a byte string. For example:</p><br><figure><img src="https://images.pexels.com/photos/7319080/pexels-photo-7319080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="photo-of-detective-decoding-characters"><figcaption>picture by cottonbro studio</figcaption></figure><p class="article-text">private_key = cryptography.hazmat.backends.openssl.ec._EllipticCurvePrivateKey.from_string(private_key_bytes)</p><br><p class="article-text">Once the private key has been created, it can be converted to an ecdsa.keys.SigningKey object. This is done by calling the private_key.signing_key() method. This method returns an instance of the ecdsa.keys.SigningKey class.</p><br><p class="article-text">signing_key = private_key.signing_key()</p><br><p class="article-text">The signing_key object can then be used to sign data. This is done by calling the signing_key.sign() method. This method takes in the data to be signed as a byte string and returns the signature as a byte string.</p><br><figure><img src="https://images.pexels.com/photos/4992713/pexels-photo-4992713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="black-sign-with-inscription-and-various-supplies"><figcaption>picture by Rachel Claire</figcaption></figure><p class="article-text">signature = signing_key.sign(data)</p><br><p class="article-text">Once the signature has been generated, it can be verified by calling the signing_key.verify() method. This method takes in the data and the signature as byte strings and returns True if the signature is valid, or False if it is not.</p><br><figure><img src="https://images.pexels.com/photos/618158/pexels-photo-618158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="person-signing-document-paper"><figcaption>picture by Matthias Zomer</figcaption></figure>
+                        <p class="article-text">is_valid = signing_key.verify(data, signature)</p><br>
+                    </div>
+                </div>
+                <p class="published"><span>published on - 09/01/2023</span></p>
+                <footer>
+                    <br><br><br><br><br>
+                    <center>
+                        <a href="../cgu.html" class="terms-service-link">Terms of Service</a>
+                    </center>
+                    <br><br>
+                </footer>
+            </body>
+        </html>
+        
