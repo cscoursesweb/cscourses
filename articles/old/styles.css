@@ -20,7 +20,7 @@ body{
 /*ARTICLE*/
 .course-link{
     text-decoration: underline;
-    display: list-item; /* This has to be "list-item"*/
+    display: list-item; /* This has to be "list-item"                                          */
     margin-left : 1em;
     color: #1b1b1b;
 }

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-01-09</lastmod>
+      <lastmod>2023-01-10</lastmod>
       <changefreq>yearly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -2737,5 +2737,85 @@
     <url>
         <loc>https://www.cscourses.dev/articles/How%20to%20replicate%20Asana-style%20auto-growing%20input?%20.html</loc>
         <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Is%20there%20a%20way%20to%20communicate%20both%20"End%20of%20list"%20and%20"No%20items%20in%20list"%20with%20the%20same%20verbiage?.html</loc>
+        <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/iPhone:%20what%20combination%20of%20gestures%20should%20I%20use%20to%20manipulate%20a%203D%20model?.html</loc>
+        <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Is%20there%20any%20book%20on%20the%20philosophical%20implications%20of%20Theoretical%20Computer%20Science?.html</loc>
+        <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Python%20lamba%20syntax.%20Why%20is%20it%20'arguments'%20and%20not%20'parameters?'.html</loc>
+        <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Does%20my%20class%20violate%20the%20Single-Responsibility%20Principle?%20.html</loc>
+        <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Why%20is%20HCL(HashiCorp%20Configuration%20Language)%20a%20machine%20friendly%20language?%20.html</loc>
+        <lastmod>2023-01-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20do%20I%20delete%20a%20note%20from%20Notes.app%20using%20AppleScript?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20can%20I%20change%20the%20default%20behaviour%20of%20links%20in%20Apple%20Mail%20to%20appear%20as%20text%20URLs?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20resolve%20this%20security%20problem%20(access%20to%20files)%20in%20Ventura%20when%20using%20AppleScript?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20check%20why%20I%20have%20an%20error%20every%20time%20I%20open%20terminal%20on%20my%20new%20macbook%20M1?%20.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Disk%20Utility:%20When%20verifying%20Time%20Machine%20backups,%20do%20I%20need%20to%20run%20First%20Aid%20on%20each%20volume%20and%20container?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Will%20there%20be%20no%20more%20printed%20books%20for%20macOS%20Support%20Essentials%20Ventura%20(ACSP%20exam)?%20The%20book%20series%20was%20called%20"Apple%20Pro%20Training%20Series".html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Is%20there%20an%20iPhone%20app%20that%20displays%20scientific%20notation%20during%20calculations?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/M1%20Pro%20-%20Is%20it%20possible%20to%20have%20GPU%20hardware%20acceleration%20in%20a%20Linux%20VM%20via%20the%20Apple%20Virtualization%20framework?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Is%20there%20a%20way%20to%20use%20color%20gradient%20for%20a%20line%20in%20Keynote?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20do%20I%20update%20my%20root%20certificates%20on%20an%20older%20version%20of%20Mac%20OS%20(e.g.%20El%20Capitan)?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/WhatsApp%20Chat%20Transfer%20from%20Google%20Drive%20to%20iPhone?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/How%20to%20fix%20run-time%20error%2053%20every%20time%20I%20open%20a%20file%20in%20MS%20Word,%20Excel,%20or%20PowerPoint%20on%20Big%20Sur?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20new%20Macbook%20of%20apple%20supports%20simultaneous%20charging%20&amp;%20data%20transfer%20through%20usb%20type%20C%20port?.html</loc>
+        <lastmod>2023-01-10</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/What%20is%20the%20application%20called%20"Momentics"?%20It%20occupies%204.2%20GB%20of%20my%20hard%20disk.%20Can%20I%20delete%20it?.html</loc>
+        <lastmod>2023-01-10</lastmod>
     </url>
 </urlset>
