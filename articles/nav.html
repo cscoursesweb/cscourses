@@ -16,16 +16,17 @@
             </div>
 
             <div class="dropdown">
-                <span>category</span>
-                <div class="dropdown-content">
-                    <a href="https://www.cscourses.dev/typing/words.html" class="dropdown-element">Typing</a><br>
-                    <a href="https://www.cscourses.dev/tech%20guide/tech%20guide%20index.html" class="dropdown-element">Tech Guide</a><br>
-                    <a href="https://www.cscourses.dev/news/recent%20news.html" class="dropdown-element">News</a><br>
-                    <a href="https://www.cscourses.dev/python/python.html" class="dropdown-element">Python</a><br>
-                    <a href="https://www.cscourses.dev/web%20dev/web%20dev%20index.html" class="dropdown-element">Web dev</a><br>
-                    <a href="https://www.cscourses.dev/quantum%20computing/quantum%20computing%20index.html" class="dropdown-element">Quantum</a><br>
+                <button onclick="myFunction()" class="dropbtn">Search 🔎</button>
+                <div id="myDropdown" class="dropdown-content-searchbar">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="https://www.cscourses.dev/typing/words.html">Typing</a>
+                  <a href="https://www.cscourses.dev/tech%20guide/tech%20guide%20index.html">Tech Guide</a>
+                  <a href="https://www.cscourses.dev/news/recent%20news.html">News</a>
+                  <a href="https://www.cscourses.dev/python/python.html">Python</a>
+                  <a href="https://www.cscourses.dev/web%20dev/web%20dev%20index.html">Web dev</a>
+                  <a href="https://www.cscourses.dev/quantum%20computing/quantum%20computing%20index.html">Quantum computing</a>
                 </div>
-            </div>
+              </div>
         </li>
     </ul>
 </nav>

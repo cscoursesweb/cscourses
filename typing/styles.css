@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/* light mode */
+:root{
+  --main-color: #222;
+  --sub-color: #ddd;
+  --bg-color: white;
+}
+/* dark mode
+:root{
+  --main-color: #eee;
+  --sub-color: #353535;
+  --bg-color: black;
+}
+*/
+
+html{
+  height: 100%;
+}
+
+body{
+  font-family: 'Roboto Mono';
+  letter-spacing: 1px;
+  margin: 0;
+/*   height: 100%; */
+  padding: 0;
+  grid-gap: 2rem;
+  margin: 0 2rem;
+  background: var(--bg-color);
+  min-width: 800px;
+  min-height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4rem auto;
+  box-sizing: border-box;
+  border: 2rem solid transparent;
+}
+
+/* .mainGrid{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+} */
+
+.nav{
+/*   position: fixed;
+  top: 1rem;
+  left: 5rem; */
+  height: 4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  font-size: 3rem;
+  display: flex;
+}
+
+.nav .menu{
+  display: flex;
+}
+
+.nav .title, .nav .menu div{
+  color: var(--sub-color);
+  margin-right: 2rem;
+  transition: .2s;
+}
+
+.nav .title{
+  color: var(--main-color);
+}
+
+.nav .menu div:hover{
+  cursor: pointer;
+  color: var(--main-color);
+}
+
+.footer{
+/*   position: fixed;
+  top: calc(100vh - 1rem - 100px);
+  left: 5rem; */
+  height: 4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  font-size: 3rem;
+  color: var(--sub-color);
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.gradient{
+  width: 100%;
+/*   background: red; */
+  background-image: linear-gradient(to right, transparent, var(--bg-color)); 
+  z-index:99;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.inputBox{
+  height: 100px;
+  box-sizing: border-box;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+}
+
+.test, .title, .future{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.input{
+  margin-right: 2rem;
+}
+
+.futureWrap{
+  display: grid;
+}
+
+.futureWrap .gradient, .futureWrap .future{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.future{
+  max-width: 50vw;
+  max-width: calc(100vw - 352px - 5rem);
+  overflow: hidden;
+  z-index:98;
+}
+
+.futureBox{
+  height: 100px;
+  font-weight: 900;
+  line-height: 100px;
+  font-size: 3rem;
+  margin-right: 2rem;
+  color: var(--sub-color);
+}
+
+.hidden{
+  display: none;
+}
+
+.result{
+  font-weight: 900;
+/*   line-height: 100px; */
+  font-size: 3rem;
+  color: var(--sub-color);
+}
+
+.result div div{
+  display: inline-block;
+  margin-left: 2rem;
+  color: var(--main-color);
+}
+
+.timer{
+  height: 100px;
+    font-weight: 900;
+    line-height: 100px;
+    font-size: 3rem;
+    color: var(--main-color);
+    width: 5.2rem;
+    max-width: 5.2rem;
+    text-align: right;
+    min-width: 5.2rem;
+}
+
+.separator{
+  height: 100px;
+  background-color: var(--sub-color);
+  width: 6px;
+  margin: 0 2rem;
+}
+
+
+.inputBox letter{
+  font-weight: 900;
+  height: 100px;
+  line-height: 100px;
+  font-size: 3rem;
+  color: var(--sub-color);
+}
+
+letter.correct{
+  color: var(--main-color);;
+}
+
+letter.incorrect{
+  color: #F44336;
+}
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(0,0,0,0.2);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  padding: 5px;
+  }
+
+  button {
+      font-family : inherit;
+      font-size: 1em;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+  transition-duration: 0.3s;
+  }
+  
+  /* The search field */
+  #myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-searchbar {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  border: 1px solid #ddd;
+  z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content-searchbar a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content-searchbar a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+      
+
+.search-image{
+  height: 25px;
+  width: 25px;
+}

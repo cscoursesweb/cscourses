@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>                
+        <!--ESSENTIALS-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "icon" type = "image/png" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+
+        <!--PAGE DESCRIPTION-->
+        <title>Python courses for beginners and advanced programmers</title>
+        <meta name="description" content="Free Python exercices to learn various modules and methods.">
+ 
+        <!--STYLE-->
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-64GTLWQV26');
+        </script>
+        
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <!--Navigation bar-->
+        
+        <script>
+        fetch('./nav.html')
+            .then(response=> response.text())
+            .then(text=> document.getElementById('nav').innerHTML = text);
+        </script>
+
+        <script>
+            // JavaScript code
+            function search_animal() {
+                let input = document.getElementById('searchbar').value
+                input=input.toLowerCase();
+                let x = document.getElementsByClassName('animals');
+                
+                for (i = 0; i < x.length; i++) { 
+                    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                        x[i].style.display="none";
+                    }
+                    else {
+                        x[i].style.display="list-item";                 
+                    }
+                }
+            }
+        </script>
+        <style>
+            #searchbar{
+            margin-left: 15%;
+            padding:15px;
+            border-radius: 10px;
+            }
+
+            input[type=text] {
+            width: 30%;
+            -webkit-transition: width 0.15s ease-in-out;
+            transition: width 0.15s ease-in-out;
+            }
+
+            /* When the input field gets focus,
+                change its width to 100% */
+            input[type=text]:focus {
+            width: 70%;
+            }
+
+            #list{
+            font-size:  1.5em;
+            margin-left: 90px;
+            }
+
+            .animals{
+            display: list-item;    
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+                    </style>
+    </head>
+    <body>
+        <div id='nav'> </div>
+        <section class="blogs-section">
+            <div class="blog-card">
+                <br>
+                <center>
+                    <h1 class="blog-title">Discover Python through examples.</h1>
+                </center>
+                
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/618612/pexels-photo-618612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">Fundamentals</h1>
+                <a href="" class="course-link">Syntax: basic structure and formatting of Python</a>
+                <a href="" class="course-link">Data Types: different data types of Python, such as integers, strings, and lists</a>
+                <a href="" class="course-link">Variables: how to assign and manipulate variables, and their scope</a>
+                <a href="" class="course-link">Control Flow: Knowledge of the various control flow statements, such as if-else statements and for/while loops</a>
+                <a href="" class="course-link">Functions: how to create and use functions including defining parameters and return values</a>
+                <a href="" class="course-link">Modules and Libraries: import external libraries and modules.</a>
+                <a href="" class="course-link">Object-Oriented Programming: object-oriented programming concepts, such as classes and objects</a>
+                <a href="" class="course-link">Error handling: how to handle errors and exceptions using try-except statements.</a>
+                <a href="" class="course-link">File I/O: how to read and write files in Python</a>
+                <a href="" class="course-link">Debugging: how to use debugging tools and techniques to identify and fix errors in Python code</a>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Matplotlib1.hires.png" class="blog-image" alt="matplotlib 3D graph">
+                <h1 class="blog-title">Matplotlib.</h1>
+                <a href="" class="course-link">Plotting: create and customize different types of plots, such as line plots, scatter plots, and bar plots</a>
+                <a href="" class="course-link">Subplots: create and organize multiple plots in a single figure using the subplot function</a>
+                <a href="" class="course-link">Axes: customize and control the properties of the axes, such as the scale, labels, and tick marks</a>
+                <a href="" class="course-link">Legends, Titles, and Labels: how to add and customize legends, titles, and labels to plots to make them more informative</a>
+                <a href="" class="course-link">Styling: how to change the style of plots using the various predefined styles and how to create custom styles</a>
+                <a href="" class="course-link">3D Plotting: create 3D plots and how to customize the properties of 3D plots, such as the view angle, lighting, and color</a>
+                <a href="" class="course-link">Annotation: add annotations and text to plots to highlight specific data points or regions</a>
+                <a href="" class="course-link">Saving and Showing: save plots to a file and how to display them using the various backends</a>
+                <a href="" class="course-link">Data visualization best practices: good practices for data visualization, such as using color effectively, choosing the right type of plot for the data and avoiding chart junk</a>
+                <a href="" class="course-link">Advanced Customization: use the object-oriented API of Matplotlib to customize plots at a more granular level, such as creating custom artists</a>
+            </div>
+        </section>
+
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://pythonprogramming.net/static/images/pandas/3D-Matplotlib-Example.png" class="blog-image" alt="">
+                <h1 class="blog-title">Pandas.</h1>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/4373997/pexels-photo-4373997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">APIs.</h1>
+                <a href="" class="course-link"></a>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">Finance.</h1>
+                <a href="" class="course-link"></a>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">Machine learning.</h1>
+                <a href="" class="course-link"></a>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">Data analysis.</h1>
+                <a href="" class="course-link"></a>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/8762740/pexels-photo-8762740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">Game development.</h1>
+                <a href="" class="course-link"></a>
+            </div>
+        </section>
+
+        <section class="blogs-section">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/3584969/pexels-photo-3584969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="blog-image" alt="">
+                <h1 class="blog-title">GUI.</h1>
+                <a href="" class="course-link"></a>
+            </div>
+        </section>
+
+        <footer>
+            <br><br><br><br><br>
+            <center>
+                <a href="https://www.cscourses.dev/cgu.html" class="terms-service-link">Terms of Service</a>
+            </center>
+            <br><br>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.cscourses.dev/news/articles/tesla%20cuts%20prices%20of%20electric%20cars%20by%20up%20to%2020%20percent.html</loc>
+      <image:image>
+        <image:loc>https://images.pexels.com/photos/10029880/pexels-photo-10029880.jpeg?auto=compress&amp;=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://images.pexels.com/photos/34514/spot-runs-start-la.jpg?auto=compress&amp;=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://images.pexels.com/photos/209224/pexels-photo-209224.jpeg?auto=compress&amp;=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</image:loc>
+      </image:image>
+      <image:image>
+        <image:loc>https://images.pexels.com/photos/158109/kodiak-brown-bear-adult-portrait-wildlife-158109.jpeg?auto=compress&amp;=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</image:loc>
+      </image:image>
+  </url>
+</urlset>

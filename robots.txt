@@ -1,0 +1,18 @@
+# robots.txt file for cscourses.dev
+
+User-agent: Mediapartners-Google*
+
+User-agent: *
+
+Allow: /index.html
+Allow: /typing
+Allow: /articles
+Allow: /quantum computing
+Allow: /news
+Allow: /tech guide
+Allow: /python
+Allow: /web dev
+
+Sitemap: https://www.cscourses.dev/sitemap.xml
+Sitemap: https://www.cscourses.dev/images sitemap.xml
+Sitemap: https://www.cscourses.dev/news sitemap.xml
