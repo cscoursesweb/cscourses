@@ -49,7 +49,7 @@
             <!--Navigation bar-->
             
             <script>
-            fetch('https://cscourses.dev/nav.html')
+            fetch('./nav.html')
                 .then(response=> response.text())
                 .then(text=> document.getElementById('nav').innerHTML = text);
             </script>
