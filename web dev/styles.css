@@ -143,3 +143,13 @@ footer{
     border-radius: 5px;
     padding: 3px;
 }
+
+/*FOOTER*/
+footer{
+    background-color: white;
+}
+
+.terms-service-link{
+    text-decoration: none;
+    color: black;
+}
