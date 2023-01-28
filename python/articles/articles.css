@@ -351,6 +351,7 @@ footer{
 .sub-title{
     margin-top: 100px;
     margin-left: 150px;
+    margin-right: 150px;
     height: auto;
     outline: none;
     font-size: 30px;
@@ -367,4 +368,12 @@ footer{
 
 }
 
-/*TRINKET*/
+/*FOOTER*/
+footer{
+    background-color: white;
+}
+
+.terms-service-link{
+    text-decoration: none;
+    color: black;
+}
