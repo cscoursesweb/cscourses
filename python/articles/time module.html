@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--PAGE DESCRIPTION-->
+        <title>Working with Time in Python: An Introduction to the time Module</title>
+        <meta name="description" content="This article provides an introduction to the time module in Python, which offers a set of functions for working with time-related tasks. From getting the current time, to converting time to a readable format, this article covers the key concepts and practical examples needed to effectively use the time module in your projects.">
+        <link rel = "icon" type = "image/png" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+
+        <!--STYLE-->
+        <link rel="stylesheet" href="articles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-64GTLWQV26');
+        </script>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <!--Navigation bar-->
+
+        <script>
+        fetch('./../../nav.html')
+            .then(response=> response.text())
+            .then(text=> document.getElementById('nav').innerHTML = text);
+        </script>
+    </head>
+    <body>
+        <div id='nav'> </div>      
+        <!--ARTICLE BLOCK-->
+        <h1 class="title">Introduction to the time module of Python</h1>
+        <img src="https://images.pexels.com/photos/707582/pexels-photo-707582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="article-image" alt="" loading="lazy">
+        <figcaption>image by <a href="https://www.pexels.com/@catscoming/">Cats Coming</a></figcaption>
+
+        <h2 class="sub-title">Introduction</h2>
+        <p class="article">
+            One of the most fundamental concepts in programming is time. Whether you're working on a project that requires you to keep track of time, or simply want to display the current time on your website, you will need to know how to work with time in your programming language. In Python, the time module provides you with a set of functions that make it easy to work with time-related tasks.
+            <br><br>
+            In this article, we'll take a closer look at the time module and how you can use it in your projects.
+            <br><br>
+        </p>
+
+        <h2 class="sub-title">Getting the Current Time</h2>
+        <p class="article">
+            The first step in working with time in Python is to get the current time. The time.time() function returns the current time in seconds since the epoch, which is the point in time represented by the value 0. Here's an example of how you can use this function:            
+            <img src="https://drive.google.com/uc?export=view&id=1zvnuRM9seSuZXA2d4-6k529uM_YQO7Rw" class="article-image" alt="" loading="lazy">
+            <figcaption>copy code <a href="https://github.com/cyrilfrl/cscourses.dev-python-code/blob/main/time%20module/get%20time.py">here</a></figcaption>
+        </p>
+
+        <h2 class="sub-title">Suspending Execution</h2>
+        <p class="article">
+            In some cases, you may need to suspend the execution of your program for a certain amount of time. This can be useful when you're working with timers or waiting for some external event to occur. The time.sleep(secs) function allows you to do this by suspending the execution of your program for a specified number of seconds.
+            <br><br>
+            Here's an example of how you can use time.sleep():
+            <img src="https://drive.google.com/uc?export=view&id=1Q35fMgDaI691ZnbzOCMoIL9P-gxHiFf3" class="article-image" alt="" loading="lazy">
+            <figcaption>copy code <a href="https://github.com/cyrilfrl/cscourses.dev-python-code/blob/main/time%20module/sleep.py">here</a></figcaption>
+        </p>
+
+        <h2 class="sub-title">Converting Time to a Struct_Time Object</h2>
+        <p class="article">
+            In order to format the time in a human-readable format, you will need to convert the time in seconds since the epoch to a struct_time object. The struct_time object is a named tuple that holds information about the time, such as the year, month, day, and so on.
+            <br><br>
+            The time.gmtime(secs) function converts the time in seconds since the epoch to a struct_time object in UTC. The time.localtime(secs) function does the same thing, but converts the time to the local timezone.
+            <br><br>
+            Here's an example of how you can use these functions:
+            <img src="https://drive.google.com/uc?export=view&id=1bJlhD1NvSFQ11t-wC4R2Q8i6hf3KO05s" class="article-image" alt="" loading="lazy">
+            <figcaption>copy code <a href="https://github.com/cyrilfrl/cscourses.dev-python-code/blob/main/time%20module/local%20time.py">here</a></figcaption>
+        </p>
+
+        <h2 class="sub-title">Formatting Time</h2>
+        <p class="article">
+            Once you have a struct_time object, you can use the time.asctime([t]) and time.strftime(format[, t]) functions to format the time in a human-readable format.
+            <br><br>
+            The time.asctime([t]) function takes a struct_time object as an argument and returns a string representing the time in a human-readable format. If the argument is not provided, the function uses the current time.
+            <br><br>
+            The time.strftime(format[, t]) function takes a format string and a struct_time object as arguments and returns a string representing the time formatted according to the format string.
+            <br><br>
+            Here's an example of how you can use these functions:
+            <img src="https://drive.google.com/uc?export=view&id=1PVJN50XbG9xERIylC3nfMy0ZbKNXev7w" class="article-image" alt="" loading="lazy">
+            <figcaption>copy code <a href="https://github.com/cyrilfrl/cscourses.dev-python-code/blob/main/time%20module/asctime.py">here</a></figcaption>
+        </p>
+
+        <footer>
+            <br><br><br><br><br>
+            <center>
+                <a href="https://www.cscourses.dev/cgu.html" class="terms-service-link">Terms of Service</a>
+            </center>
+            <br><br>
+        </footer>
+
+        <p class="published"><span>published at - 01/29/2022</span></p>
+    </body>
+</html>
