@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-01-10</lastmod>
+      <lastmod>2023-02-05</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -79,5 +79,9 @@
     <url>
       <loc>https://www.cscourses.dev/python/articles/create%20a%20line%20plot%20with%20matplotlib%20in%20python.html</loc>
       <lastmod>2023-01-29</lastmod>
-    </url>    
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/Are%20Sport%20Betting%20Algorithms%20Working.html</loc>
+        <lastmod>2023-02-05</lastmod>
+    </url>
 </urlset>

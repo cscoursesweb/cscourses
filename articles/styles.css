@@ -360,8 +360,12 @@ footer{
     border-radius: 10px;
     margin: 0 auto;
     max-width: 600px;
-    bottom: 0;
-    
+    bottom: 0;   
+}
+
+figcaption{
+    font-weight: 600;
+    color: #2d2d2d;
 }
 
 .title::placeholder{
