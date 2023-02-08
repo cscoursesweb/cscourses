@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-02-06</lastmod>
+      <lastmod>2023-02-08</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
     </url>
@@ -247,5 +247,85 @@
     <url>
         <loc>https://www.cscourses.dev/articles/what%C2%A0ChatGPT%20could%20mean%20for%20the%20future%20of%20artificial%20intelligence.html</loc>
         <lastmod>2023-02-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20git%20action?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/who%20is%20GitHub's%20CEO?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20GitHub%20packages.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20to%20recruit%20using%20GitHub.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/is%20GitHub%20safe%20to%20use?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20to%20do%20Scratch%20programming%20in%20mobile?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20to%20code%20on%20Scratch.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20PyCharm%20run%20Java?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20PyCharm%20run%20multiple%20scripts?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20PyCharm%20run%20without%20Python%20installed?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20dynamic%20programming%20questions%20asked%20in%20interviews.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20dynamic%20programming%20languages?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20the%20features%20of%20dynamic%20programming?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20hard%20is%20dynamic%20programming.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20data%20science%20and%20machine%20learning%20the%20same?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/who%20can%20learn%20data%20science%20and%20machine%20learning?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20Netflix%20uses%20ai%20data%20science%20and%20machine%20learning?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20zero%20trust%20principles?.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20zero%20trust%20pillars.html</loc>
+        <lastmod>2023-02-08</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20zero%20trust%20networks?.html</loc>
+        <lastmod>2023-02-08</lastmod>
     </url>
 </urlset>
