@@ -17,41 +17,6 @@ body{
     color: #fff;
 }
 
-/*BUTTON SETTINGS*/
-.btn{
-    padding: 10px 20px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.7);
-    color: #000;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-.btn.dark{
-    background: #1b1b1b;
-    color: #fff;
-}
-
-/*SECTION*/
-.blogs-section{
-    width: 100%;
-    padding: 50px 5vw;
-    display: grid;
-}
-
-.blog-image{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.blog-overview{
-    margin: 10px 0 20px;
-    line-height: 30px;
-}
-
 /*NAVBAR*/
 .navbar{
     width: 100%;
@@ -86,47 +51,33 @@ body{
     margin: 100px;
 }
 
-/*DROPDOWN MENU*/
-.dropdown {
-    position: relative;
-    display: inline-block;
-    padding: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    border-radius: 10px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-element{
-    text-decoration: none;
-    color: black;
-}
-
-
-.dropdown-element:hover{
-    transition: background-color 0.3s ease;
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 5px;
-    padding: 4px;
+.navbar img{
+    width: 40px;
+    height: 40px;
 }
 
 /*FOOTER*/
-footer{
-    background-color: white;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* set the height of the footer as needed */
+    background-color: #f2f2f2; /* set the background color of the footer as needed */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-link {
+    margin: 0 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333; /* set the font color of the links as needed */
+}
+
+.footer-link:hover{
+    transition-duration: 0.3s;
+    color: black;
 }
 
 .terms-service-link{
@@ -134,78 +85,78 @@ footer{
     color: black;
 }
 
+#project-introduction{
+    background-color: black;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    margin-bottom: 60px;
+}
 
-/* Dropdown Button */
-.dropbtn {
+#project-introduction h1{
+    font-size: 50px;
     color: white;
-    font-size: 16px;
-    border: none;
-    background-color: rgba(0,0,0,0.2);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+}
+
+#project-introduction p{
+    color: white;
+}
+
+#project-description h2{
+    padding: 0px 0px 0px 20%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#project-description p{
+    font-size: 20px;
+    margin: 50px 250px 150px 250px;
+}
+
+.advantages-box {
+    position: relative;
+    background-color: #bdb2ff; /* light yellow */
     border-radius: 10px;
-    padding: 5px;
-    }
+    padding: 20px;
+    margin: 0px 250px 0px 250px;
+    background-color: black;
+  }
+  
+  .advantages-box::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5; /* adjust opacity as desired */
+    background-color: white; /* color of the overlay */
+    z-index: -1; /* move the overlay behind the content */
+    border-radius: 10px; /* same as the container */
+  }
 
-button {
-    font-family : inherit;
-    font-size: 1em;
+ul{
+    list-style: circle;
+    margin-left: 20px;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-background-color: black;
-transition-duration: 0.3s;
+li{
+    margin: 10px 0px 0px 0px;
 }
 
-/* The search field */
-#myInput {
-box-sizing: border-box;
-background-image: url('searchicon.png');
-background-position: 14px 12px;
-background-repeat: no-repeat;
-font-size: 16px;
-padding: 14px 20px 12px 45px;
-border: none;
-border-bottom: 1px solid #ddd;
+.advantages-box {
+    color: white;
+    margin-bottom: 60px;
 }
 
-/* The search field when it gets focus/clicked on */
-#myInput:focus {outline: 3px solid #ddd;}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-position: relative;
-display: inline-block;
+#menubar-image{
+    height: 90px;
+    width: 90px;
+    margin: 30px 0px 30px 0px;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content-searchbar {
-display: none;
-position: absolute;
-background-color: #f6f6f6;
-min-width: 230px;
-border: 1px solid #ddd;
-z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content-searchbar a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content-searchbar a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-    
-
-.search-image{
-    height: 25px;
-    width: 25px;
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

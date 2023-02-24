@@ -1,0 +1,111 @@
+
+        <!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <!--SETTINGS-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="theme-color" content="#13171f">
+                <meta name="robots" content="max-image-preview:large">
+                <link rel="apple-touch-icon" sizes="180x180" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <title> Is Dynamic Programming Really That Hard?</title>
+                <meta name="description" content="Dynamic programming is a powerful tool for solving complex problems, but it can be intimidating to learn. In this blog article, we'll explore why dynamic programming can be difficult to understand and how to make it easier. We'll also look at some examples of dynamic programming in action and discuss the benefits of mastering this technique. Finally, we'll provide some tips for getting started with dynamic programming and overcoming the initial learning curve. With this information, you'll be able to confidently tackle any dynamic programming problem">
+
+                <!--STYLES -->
+                <link rel="stylesheet" href="./styles.css" type="text/css">
+                <link rel="stylesheet" href="./articles cards.css">
+
+                <!--FONTS-->
+                <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:wght@700&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+                <!--NAVBAR AND FOOTER-->
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+                <script>
+                    fetch('./../nav.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('nav').innerHTML = text);
+
+                    fetch('./../cards.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('cards').innerHTML = text);
+
+                    fetch('./../foo.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('foo').innerHTML = text);
+                </script>
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-64GTLWQV26');
+                </script>
+
+                <!--Google AdSense-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5935670094377969" crossorigin="anonymous"></script>
+            </head>
+
+            <body >
+                <div class="sidebar-off">
+                    <div class="article-box">
+                        <main class="main-block-wrap main">
+                            <article>
+                                <div id='nav'></div>
+                                
+                                <span class="read-time">8 min read</span>
+                                
+                                <div class="title-wrap">
+                                    <h1 class="entry-title"> Is Dynamic Programming Really That Hard?</h1>
+                                </div>
+                                <div class="sharing">
+                                    <a class="tweet-link"
+                                        href="https://twitter.com/intent/tweet?text=Read%20this:%20https%3A%2F%2Fwww.cscourses.dev%2Farticles%2F%2520how%2520hard%2520is%2520dynamic%2520programming.html"><img
+                                            src="https://i.pinimg.com/564x/a7/bd/a3/a7bda33980fda6ca63039eef71637618.jpg"
+                                            alt="Tweet" onmouseover="this.title='Tweet';"
+                                            onmouseout="this.title='';"></a>
+                                </div>
+
+                                <div class="article-block">
+                                    <div>
+                                        <h2 class="author">Author: <a
+                                                href="https://openai.com/blog/chatgpt/"
+                                                target="_blank">ChatGPT</a></h2>
+                                    </div>
+                                    <p class="date">February 24, 2023</p>
+
+                                    			
+<h3>Introduction</h3>
+<p>Dynamic programming is a powerful technique used in computer science and software engineering to solve complex problems. It is often seen as a difficult concept to understand, but with the right approach, it can be quite straightforward. In this blog post, I will explain what dynamic programming is, how it works, and why it can be so challenging.</p>
+<img class="article-image" src="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="turned-on-macbook-pro" decoding="async” loading=" lazy">			
+<h3> What Is Dynamic Programming?</h3>
+<p>Dynamic programming is an algorithmic technique used to solve complex problems by breaking them down into smaller sub-problems. It works by storing the solutions of the sub-problems in a table or array and then using those solutions to solve the larger problem. This technique allows for efficient solutions to problems that would otherwise take too long to solve using traditional methods.</p>
+<p>Dynamic programming can be used for many different types of problems, such as finding the shortest path between two points on a map or finding the most efficient way to pack items into a container. It can also be used for optimization problems, such as finding the maximum profit from a given set of investments or minimizing the cost of producing a certain number of items.</p>
+<img class="article-image" src="https://images.pexels.com/photos/6292462/pexels-photo-6292462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="healthy-man-person-people" decoding="async” loading=" lazy">			
+<h3> How Does Dynamic Programming Work?</h3>
+<p>Dynamic programming works by breaking down a problem into smaller sub-problems and then solving each sub-problem individually. The solutions to these sub-problems are then stored in an array or table so that they can be reused when needed. This allows for efficient solutions since only one solution needs to be calculated instead of having to calculate multiple solutions for each sub-problem.</p>
+<p>The process starts by defining the problem and then breaking it down into smaller sub-problems that can be solved independently. Once all of the sub-problems have been solved, their solutions are stored in an array or table so that they can be reused when needed. Finally, these solutions are combined together in order to solve the original problem.</p>
+<img class="article-image" src="https://images.pexels.com/photos/3760790/pexels-photo-3760790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="mad-formal-executive-man-yelling-at-camera" decoding="async” loading=" lazy">			
+<h3> Why Is Dynamic Programming So Challenging?</h3>
+<p>Dynamic programming can be challenging because it requires you to think about how each individual sub-problem relates to the overall problem and how its solution affects other parts of the problem. Additionally, dynamic programming requires you to think about how best to store and reuse previously calculated solutions in order to make your algorithm more efficient. Finally, dynamic programming algorithms often require you to think about how best to optimize your solution in order to get the best possible result from your algorithm.</p>
+<p>In addition, dynamic programming algorithms often require you to think about time complexity and space complexity when designing your algorithm in order for it run efficiently on large datasets or complex problems. This means that you need an understanding of data structures and algorithms in order for your algorithm design decisions will have an impact on its performance when running on large datasets or complex problems.</p>
+<img class="article-image" src="https://images.pexels.com/photos/5845746/pexels-photo-5845746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="retro-watch-street-in-city" decoding="async” loading=" lazy">			
+<h3> Conclusion</h3>
+<p>In conclusion, dynamic programming is not necessarily hard but it does require some thought and understanding before attempting any type of implementation or design decisions related with this technique . With some practice and understanding of data structures and algorithms , anyone should be ableto understand this concept better .</p>
+<img class="article-image" src="https://images.pexels.com/photos/5905525/pexels-photo-5905525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="diverse-woman-and-teenager-studying-biology-in-classroom" decoding="async” loading=" lazy">
+
+                                    <div id='cards'></div>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+
+                <div id='foo'></div>
+            </body>
+        </html>
+        
+        
