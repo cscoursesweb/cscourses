@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-02-27</lastmod>
+      <lastmod>2023-02-28</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -1667,5 +1667,9 @@
     <url>
         <loc>https://www.cscourses.dev/articles/which%20machine%20learning%20algorithm%20is%20used%20for%20dimensionality%20reduction.html</loc>
         <lastmod>2023-02-27</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/algorithmic%20trading%20questions.html</loc>
+        <lastmod>2023-02-28</lastmod>
     </url>
 </urlset>
