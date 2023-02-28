@@ -1,0 +1,113 @@
+
+        <!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <!--SETTINGS-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="theme-color" content="#13171f">
+                <meta name="robots" content="max-image-preview:large">
+                <link rel="apple-touch-icon" sizes="180x180" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <title>Understanding Pointers In Programming Languages</title>
+                <meta name="description" content="This blog article will provide an overview of pointers in programming languages. Pointers are a powerful tool used in many programming languages, and understanding how they work is essential for any programmer. We will discuss the basics of pointers, how they are used, and the advantages and disadvantages of using them. We will also look at some examples of how pointers can be used in different programming languages. Finally, we will discuss some best practices for using pointers to ensure that your code is efficient and secure. By">
+
+                <!--STYLES -->
+                <link rel="stylesheet" href="./styles.css" type="text/css">
+                <link rel="stylesheet" href="./articles cards.css">
+
+                <!--FONTS-->
+                <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:wght@700&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+                <!--NAVBAR AND FOOTER-->
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+                <script>
+                    fetch('./../nav.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('nav').innerHTML = text);
+
+                    fetch('./../cards.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('cards').innerHTML = text);
+
+                    fetch('./../foo.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('foo').innerHTML = text);
+                </script>
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-64GTLWQV26');
+                </script>
+
+                <!--Google AdSense-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5935670094377969" crossorigin="anonymous"></script>
+            </head>
+
+            <body >
+                <div class="sidebar-off">
+                    <div class="article-box">
+                        <main class="main-block-wrap main">
+                            <article>
+                                <div id='nav'></div>
+                                
+                                <span class="read-time">10 min read</span>
+                                
+                                <div class="title-wrap">
+                                    <h1 class="entry-title">Understanding Pointers In Programming Languages</h1>
+                                </div>
+                                <div class="sharing">
+                                    <a class="tweet-link"
+                                        href="https://twitter.com/intent/tweet?text=Read%20this:%20https%3A%2F%2Fwww.cscourses.dev%2Farticles%2Fprogramming%2520languages%2520with%2520pointers.html"><img
+                                            src="https://i.pinimg.com/564x/a7/bd/a3/a7bda33980fda6ca63039eef71637618.jpg"
+                                            alt="Tweet" onmouseover="this.title='Tweet';"
+                                            onmouseout="this.title='';"></a>
+                                </div>
+
+                                <div class="article-block">
+                                    <div>
+                                        <h2 class="author">Author: <a
+                                                href="https://openai.com/blog/chatgpt/"
+                                                target="_blank">ChatGPT</a></h2>
+                                    </div>
+                                    <p class="date">February 28, 2023</p>
+
+                                    			
+<h3>Introduction</h3>
+<p>Pointers are a powerful tool in programming languages, allowing developers to create complex and efficient programs. But what exactly are pointers and how do they work? In this blog post, we'll explore the basics of pointers and how they can be used in various programming languages.</p>
+<p>A pointer is a variable that stores the address of another variable. It is used to access data stored at a particular memory location. Pointers are commonly used in C and C++, but they can also be found in other languages such as Java, Python, and JavaScript.</p>
+<img class="article-image" src="https://images.pexels.com/photos/4490181/pexels-photo-4490181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="unrecognizable-female-photographer-taking-photos-and-reflecting-in-rear-window" decoding="async” loading=" lazy">			
+<h3>What Are the Benefits of Using Pointers?</h3>
+<p>Pointers offer several advantages over other methods of accessing data. First, they allow for faster access to data since the pointer directly points to the memory location where the data is stored. This eliminates the need for searching through an array or linked list for a particular value.</p>
+<p>Second, pointers can be used to create dynamic data structures such as linked lists and trees. These structures allow for efficient storage and retrieval of data without having to store all of it in memory at once. This makes them ideal for applications that require large amounts of data or frequent updates.</p>
+<p>Third, pointers can be used to pass information between functions without having to copy the entire contents of a variable into another one. This makes it easier to write code that is both efficient and maintainable since there is less need for copying large amounts of data around.</p>
+<p>Finally, pointers can be used to implement complex algorithms such as sorting or searching quickly and efficiently since they allow direct access to specific elements within an array or linked list without having to traverse through all elements first.</p>
+<img class="article-image" src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="black-screen-with-code" decoding="async” loading=" lazy">			
+<h3>How Do Pointers Work?</h3>
+<p>In order for a pointer to work correctly, it must point to a valid memory address that contains valid data. When a pointer is declared, it must be initialized with either an address or null (if no address is available). Once initialized, the pointer can then be used like any other variable by assigning values or calling functions on it directly from its address location in memory.</p>
+<p>When using pointers with arrays or linked lists, it's important to remember that each element within these structures has its own unique address which must be accessed separately from any other element within the structure itself. For example, if you wanted to access the third element within an array using a pointer you would have to first find its address before being able to use it like any other variable.</p>
+<img class="article-image" src="https://images.pexels.com/photos/8853502/pexels-photo-8853502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="solar-technician-installing-solar-panel" decoding="async” loading=" lazy">			
+<h3>Common Uses for Pointers</h3>
+<p>Pointers are commonly used when dealing with large amounts of data or when implementing complex algorithms such as sorting or searching algorithms quickly and efficiently since they allow direct access to specific elements within an array or linked list without having traversing through all elements first. They are also often used when dealing with dynamic memory allocation since they provide an easy way of keeping track of allocated memory locations so that they can later be freed up when no longer needed by the program. Finally, pointers are often used when dealing with recursive functions since they provide an easy way of keeping track of where each recursive call began so that it can later return back there once finished executing its task(s).</p>
+<img class="article-image" src="https://images.pexels.com/photos/5905529/pexels-photo-5905529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="diverse-pupils-and-teacher-studying-parts-of-primitive-organism" decoding="async” loading=" lazy">			
+<h3>Conclusion</h3>
+<p>Pointers are an incredibly powerful tool in programming languages which allow developers greater control over their programs by providing direct access to specific elements within arrays or linked lists without having traversing through all elements first as well as providing an easy way of keeping track of allocated memory locations so that they can later be freed up when no longer needed by the program. They also offer several advantages over other methods such as faster access times and more efficient storage/retrieval methods which make them ideal for applications requiring large amounts of data or frequent updates/changes made throughout their lifetime(s).</p>
+<img class="article-image" src="https://images.pexels.com/photos/1008164/pexels-photo-1008164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="road-signages" decoding="async” loading=" lazy">
+
+                                    <div id='cards'></div>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+
+                <div id='foo'></div>
+            </body>
+        </html>
+        
+        

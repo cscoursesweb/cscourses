@@ -1,0 +1,120 @@
+
+        <!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <!--SETTINGS-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="theme-color" content="#13171f">
+                <meta name="robots" content="max-image-preview:large">
+                <link rel="apple-touch-icon" sizes="180x180" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <title>Exploring Programming Languages Without Null</title>
+                <meta name="description" content="This blog article will explore the concept of programming languages without null. Null is a special value that indicates the absence of a value, and it is used in many programming languages. However, some languages have been developed without the use of null, and this article will discuss the advantages and disadvantages of these languages. We will also look at some examples of programming languages without null and how they are used in practice. Finally, we will discuss why some developers choose to use these languages instead of traditional ones">
+
+                <!--STYLES -->
+                <link rel="stylesheet" href="./styles.css" type="text/css">
+                <link rel="stylesheet" href="./articles cards.css">
+
+                <!--FONTS-->
+                <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:wght@700&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+                <!--NAVBAR AND FOOTER-->
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+                <script>
+                    fetch('./../nav.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('nav').innerHTML = text);
+
+                    fetch('./../cards.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('cards').innerHTML = text);
+
+                    fetch('./../foo.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('foo').innerHTML = text);
+                </script>
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-64GTLWQV26');
+                </script>
+
+                <!--Google AdSense-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5935670094377969" crossorigin="anonymous"></script>
+            </head>
+
+            <body >
+                <div class="sidebar-off">
+                    <div class="article-box">
+                        <main class="main-block-wrap main">
+                            <article>
+                                <div id='nav'></div>
+                                
+                                <span class="read-time">14 min read</span>
+                                
+                                <div class="title-wrap">
+                                    <h1 class="entry-title">Exploring Programming Languages Without Null</h1>
+                                </div>
+                                <div class="sharing">
+                                    <a class="tweet-link"
+                                        href="https://twitter.com/intent/tweet?text=Read%20this:%20https%3A%2F%2Fwww.cscourses.dev%2Farticles%2Fprogramming%2520languages%2520without%2520null.html"><img
+                                            src="https://i.pinimg.com/564x/a7/bd/a3/a7bda33980fda6ca63039eef71637618.jpg"
+                                            alt="Tweet" onmouseover="this.title='Tweet';"
+                                            onmouseout="this.title='';"></a>
+                                </div>
+
+                                <div class="article-block">
+                                    <div>
+                                        <h2 class="author">Author: <a
+                                                href="https://openai.com/blog/chatgpt/"
+                                                target="_blank">ChatGPT</a></h2>
+                                    </div>
+                                    <p class="date">February 28, 2023</p>
+
+                                    			
+<h3>Introduction</h3>
+<p>Null is a concept that has been around for a long time in programming languages. It is used to represent an empty or unknown value, and it can be found in many languages such as Java, C++, and Python. However, there are some programming languages that do not use null at all. In this blog post, we will explore these languages and discuss why they have chosen to omit null from their language design.</p>
+<img class="article-image" src="https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="heap-of-different-nominal-per-dollars" decoding="async” loading=" lazy">			
+<h3>What is Null?</h3>
+<p>Null is a special value that indicates the absence of any other value. It is often used to represent an empty or unknown value in programming languages. In most cases, it is represented by the keyword “null” or the symbol “nil”. It can also be represented by other values such as 0 or -1 depending on the language.</p>
+<p>Null has been around for a long time and it has become an integral part of many programming languages. However, there are some programming languages that have chosen to omit null from their language design for various reasons.</p>
+<img class="article-image" src="https://images.pexels.com/photos/1972464/pexels-photo-1972464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="javascript-code" decoding="async” loading=" lazy">			
+<h3>Why Do Some Languages Omit Null?</h3>
+<p>There are several reasons why some programming languages choose to omit null from their language design. The most common reason is that null can lead to errors if not handled properly. For example, if a program tries to access a variable with a null value, it may cause an error or crash the program altogether. This can be especially problematic when dealing with large programs with complex data structures.</p>
+<p>Another reason why some languages choose to omit null is because it can make code more difficult to read and understand. This is because when dealing with variables that may contain null values, extra checks must be made in order to ensure that the variable does not contain a null value before attempting to use it in any way. This can add extra complexity and clutter to code which makes it harder for developers to read and understand what the code does.</p>
+<p>Finally, some languages choose to omit null because they believe that there are better ways of representing empty or unknown values than using the keyword “null” or symbol “nil”. For example, some functional programming languages such as Haskell use something called “Maybe” which allows developers to explicitly indicate whether a variable contains a valid value or not without having to rely on the keyword “null” or symbol “nil”.</p>
+<img class="article-image" src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="woman-coding-on-computer" decoding="async” loading=" lazy">			
+<h3>Examples of Programming Languages Without Null</h3>
+<p>There are several examples of programming languages that do not use null at all in their language design:</p>
+<p>* Haskell: Haskell is a purely functional programming language which does not use any form of null at all in its language design. Instead of using the keyword “null” or symbol “nil”, Haskell uses something called “Maybe” which allows developers to explicitly indicate whether a variable contains a valid value or not without having to rely on any special keywords or symbols like “null” or “nil” .</p>
+<p>* Rust: Rust is another popular programming language which does not use any form of null at all in its language design either . Instead of using the keyword “null” or symbol “nil” , Rust uses something called Option types which allow developers to explicitly indicate whether a variable contains a valid value or not without having to rely on any special keywords like “null” .</p>
+<p>* Elixir: Elixir is another functional programming language which also does not use any form of null at all in its language design . Instead of using the keyword "null" , Elixir uses something called "Maybe" which allows developers to explicitly indicate whether a variable contains a valid value or not without having to rely on any special keywords like "null" .</p>
+<img class="article-image" src="https://images.pexels.com/photos/8410769/pexels-photo-8410769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="smiling-woman-in-white-crew-neck-shirt-and-black-cardigan" decoding="async” loading=" lazy">			
+<h3>Benefits of Programming Languages Without Null</h3>
+<p>There are several benefits associated with using programming languages without null:</p>
+<p>* Improved Code Readability: By omitting null from their language design , these types of programming languages make code easier for developers read and understand since they don't have worry about checking for potential errors caused by variables containing invalid values . This makes code more maintainable since developers don't have spend time debugging issues caused by invalid values .</p>
+<p>* Reduced Complexity: By omitting null from their language design , these types of programming languages reduce complexity since they don't require extra checks for variables containing invalid values . This makes code simpler and easier for developers write since they don't have worry about checking for potential errors caused by variables containing invalid values .</p>
+<p>* Improved Performance: By omitting null from their language design , these types of programming languages improve performance since they don't require extra checks for variables containing invalid values . This reduces overhead associated with checking for potential errors caused by variables containing invalid values , resulting improved performance overall .</p>
+<img class="article-image" src="https://images.pexels.com/photos/5598288/pexels-photo-5598288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="welcome-lettering-text-on-black-background" decoding="async” loading=" lazy">			
+<h3>Conclusion</h3>
+<p>In conclusion , there are several advantages associated with using programming languages without null such as improved code readability , reduced complexity , and improved performance . These advantages make these types of programming languages attractive options when developing software applications where reliability and performance are important considerations .</p>
+<img class="article-image" src="https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="numbers-projected-on-face" decoding="async” loading=" lazy">
+
+                                    <div id='cards'></div>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+
+                <div id='foo'></div>
+            </body>
+        </html>
+        
+        
