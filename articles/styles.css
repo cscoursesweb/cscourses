@@ -541,3 +541,17 @@ display: block;
     align-items: center;
     justify-content: center;
 }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+    height: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+    iframe {
+        height: 150px;
+    }
+}

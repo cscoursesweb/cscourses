@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-02-28</lastmod>
+      <lastmod>2023-03-03</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -2491,5 +2491,61 @@
     <url>
         <loc>https://www.cscourses.dev/articles/algorithmic%20trading%20vs%20discretionary%20trading.html</loc>
         <lastmod>2023-02-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/when%20was%20euro%205%20introduced.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/when%20was%20euro%20implemente.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20to%20get%20started%20with%20algorithmic%20trading.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/whose%20in%20eu.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20to%20get%20started%20with%20day%20trading%20on%20Robinhood.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/day%20trading%20for%20noobies.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/day%20trading%20on%20Robinhood.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/why%20should%20researchers%20identify%20the%20data%20analysis%20method%20that%20is%20appropriate%20to%20your%20study.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20robinhood%20trading%20hours.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20day%20trading%20rules%20on%20robinhood.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20trading%20days%20on%20robinhood.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20trading%20options%20on%20robinhood.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20the%20fees%20for%20trading%20crypto%20on%20robinhood.html</loc>
+        <lastmod>2023-03-03</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/is%20robinhood%20trading%20safe.html</loc>
+        <lastmod>2023-03-03</lastmod>
     </url>
 </urlset>
