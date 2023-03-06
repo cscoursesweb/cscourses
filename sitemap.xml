@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-03-05</lastmod>
+      <lastmod>2023-03-06</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -2823,5 +2823,65 @@
     <url>
         <loc>https://www.cscourses.dev/articles/is%20margin%20trading%20the%20same%20as%20leverage.html</loc>
         <lastmod>2023-03-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/does%20margin%20trading%20affect%20credit%20score.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/is%20margin%20trading%20same%20as%20futures.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20does%20margin%20trading%20work%20on%20robinhood.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/margin%20trading%20account%20without%20borrowing.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20tax%20loss%20harvesting%20works.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20does%20tax%20loss%20harvesting%20mean.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/who%20benefits%20from%20tax%20loss%20harvesting.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/who%20should%20do%20tax%20loss%20harvesting.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20tax%20loss%20harvesting%20offset%20ordinary%20income.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20tax%20loss%20harvesting%20offset%20dividends.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20tax%20loss%20harvesting%20offset%20roth%20conversion.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/does%20tax%20loss%20harvesting%20work.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/does%20tax%20loss%20harvesting%20apply%20to%20roth%20ira.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/when%20does%20tax%20loss%20harvesting%20happen.html</loc>
+        <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/when%20does%20tax%20loss%20harvesting%20not%20make%20sense.html</loc>
+        <lastmod>2023-03-06</lastmod>
     </url>
 </urlset>
