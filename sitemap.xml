@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-03-06</lastmod>
+      <lastmod>2023-03-07</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -2883,5 +2883,65 @@
     <url>
         <loc>https://www.cscourses.dev/articles/when%20does%20tax%20loss%20harvesting%20not%20make%20sense.html</loc>
         <lastmod>2023-03-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20tax%20loss%20harvesting%20offset%20dividends.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/benefits%20of%20automatic%20rebalancing%20portfolio.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20automatic%20portfolio%20rebalancing.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/best%20automated%20portfolio%20manager.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/why%20portfolio%20rebalancing%20is%20important.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20are%20exchange%20traded%20funds%20(etfs).html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/most%20popular%20canadian%20exchange%20traded%20funds.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/exchange-traded%20funds%20examples.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/exchange-traded%20funds%20definition.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20exchange-traded%20funds%20are%20priced.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20exchange%20traded%20funds%20equity%20securities.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20exchange%20traded%20funds%20safe.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20exchange%20traded%20funds%20a%20good%20investment.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20exchange%20traded%20funds%20high%20risk.html</loc>
+        <lastmod>2023-03-07</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20exchange%20traded%20funds%20actively%20managed.html</loc>
+        <lastmod>2023-03-07</lastmod>
     </url>
 </urlset>
