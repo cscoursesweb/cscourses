@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-03-09</lastmod>
+      <lastmod>2023-03-11</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -3259,5 +3259,65 @@
     <url>
         <loc>https://www.cscourses.dev/articles/how%20does%20buying%20stock%20works.html</loc>
         <lastmod>2023-03-09</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/how%20does%20shorting%20a%20stock%20works.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20ipo%20in%20stock%20market%20and%20how%20it%20works.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20stock%20wash%20sale%20rule.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20stock%20washing.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/when%20stock%20splits%20what%20happens.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/who%20decides%20how%20many%20stocks%20a%20company%20has.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/stock%20market%20opening%20dates.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20safer%20than%20stocks.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20taxable.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20payable%20a%20current%20liability.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20riskier%20than%20stocks.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20securities.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20liquid.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/are%20bonds%20taxed%20as%20capital%20gains.html</loc>
+        <lastmod>2023-03-11</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20bonds%20lose%20money.html</loc>
+        <lastmod>2023-03-11</lastmod>
     </url>
 </urlset>
