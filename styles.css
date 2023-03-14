@@ -17,45 +17,6 @@ body{
     color: #fff;
 }
 
-/*NAVBAR*/
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5vw;
-    background: #fff;
-    z-index: 9;
-}
-
-.links-container{
-    display: flex;
-    list-style: none;
-}
-
-.link{
-    padding: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #000;
-}
-
-#navbar-logo{
-    height: 50px;
-    width: 50px;
-    margin: 100px;
-}
-
-.navbar img{
-    width: 40px;
-    height: 40px;
-}
-
 /*FOOTER*/
 footer {
     display: flex;
@@ -77,86 +38,123 @@ footer {
 
 .footer-link:hover{
     transition-duration: 0.3s;
-    color: black;
+    color: white;
 }
 
 .terms-service-link{
     text-decoration: none;
-    color: black;
-}
-
-#project-introduction{
-    background-color: black;
-    text-align: center;
-    padding: 100px 0px 100px 0px;
-    margin-bottom: 60px;
-}
-
-#project-introduction h1{
-    font-size: 50px;
     color: white;
 }
 
-#project-introduction p{
-    color: white;
-}
+/*ROLLING BOX*/
+.Words {
+    margin: 0 auto;
+    padding: 80px 0;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 68px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    transform: translate3d(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+  }
 
-#project-description h2{
-    padding: 0px 0px 0px 20%;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-#project-description p{
-    font-size: 20px;
-    margin: 50px 250px 150px 250px;
-}
-
-.advantages-box {
+  .Words-line {
+    height: 50px;
+    overflow: hidden;
     position: relative;
-    background-color: #bdb2ff; /* light yellow */
-    border-radius: 10px;
-    padding: 20px;
-    margin: 0px 250px 0px 250px;
-    background-color: black;
   }
   
-  .advantages-box::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.5; /* adjust opacity as desired */
-    background-color: white; /* color of the overlay */
-    z-index: -1; /* move the overlay behind the content */
-    border-radius: 10px; /* same as the container */
+  .Words-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(.66667);
+  }
+  
+  .Words-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.33333);
+  }
+  
+  /*
+  ** Apply an offset to each line of text
+  */
+  .Words-line:nth-child(1) {
+    left: 29px;
+  }
+  
+  .Words-line:nth-child(2) {
+    left: 58px;
+  }
+  
+  .Words-line:nth-child(3) {
+    left: 87px;
+  }
+  
+  .Words-line:nth-child(4) {
+    left: 116px;
+  }
+  
+  .Words-line:nth-child(5) {
+    left: 145px;
+  }
+  
+  .Words-line:nth-child(6) {
+    left: 174px;
+  }
+  
+  /*
+  ** Fine-grained text styles
+  */
+  p {
+    height: 50px;
+    line-height: 45px;
+    padding: 0 10px;
+    transition: all .4s ease-in-out;
+    transform: translate3d(0, 0, 0);
+    vertical-align: top;
+    white-space: nowrap;
+    color: white;
+  }
+  
+  /*
+  ** The hover interaction
+  */
+  .Words:hover p {
+    transform: translate3d(0, -50px, 0);
   }
 
-ul{
-    list-style: circle;
-    margin-left: 20px;
+.upper-view {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* add your other styles here */
 }
 
-li{
-    margin: 10px 0px 0px 0px;
+.main{
+  padding-top: 750px;
+  padding-bottom: 200px;
 }
 
-.advantages-box {
-    color: white;
-    margin-bottom: 60px;
+h3 {
+  margin: 0 20%;
 }
 
-#menubar-image{
-    height: 90px;
-    width: 90px;
-    margin: 30px 0px 30px 0px;
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  h3 {
+    margin: 10%;
+  }
 }
 
-.image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h3{
+  padding-top: 20px;
+  color: white;
+}
+
+body{
+  background-image: url("https://media.newyorker.com/photos/628d2a485ffc2a133c607721/master/w_2560%2Cc_limit/Cassidy-Stock-Market.jpg");
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  background-color:rgba(0, 0, 0, 0.1);
 }
