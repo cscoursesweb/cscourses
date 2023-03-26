@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-03-14</lastmod>
+      <lastmod>2023-03-26</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -3759,5 +3759,9 @@
     <url>
         <loc>https://www.cscourses.dev/articles/are%20investments%20liquid%20assets.html</loc>
         <lastmod>2023-03-14</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/ite\website\articles\optimizing%20fixed%20annuity%20tax%20deferral.html</loc>
+        <lastmod>2023-03-26</lastmod>
     </url>
 </urlset>
