@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-03-28</lastmod>
+      <lastmod>2023-04-01</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -4243,5 +4243,9 @@
     <url>
         <loc>https://www.cscourses.dev/articles/replicating%20private%20equity%20the%20impact%20of%20return%20smoothing.html</loc>
         <lastmod>2023-03-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/this%20is%20a%20test%20article%20generated%20by%20chatgpt.html</loc>
+        <lastmod>2023-04-01</lastmod>
     </url>
 </urlset>
