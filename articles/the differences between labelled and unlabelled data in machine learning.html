@@ -1,0 +1,112 @@
+
+        <!DOCTYPE html>
+        <html lang="en-US">
+            <head>
+                <!--SETTINGS-->
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="theme-color" content="#13171f">
+                <meta name="robots" content="max-image-preview:large">
+                <link rel="apple-touch-icon" sizes="180x180" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <link rel="icon" type="image/png" href="https://drive.google.com/uc?export=view&id=1hwqJKzZB3f4VcKuwBHAVKMhpbOk_t9TW">
+                <title>Understanding The Difference Between Labelled And Unlabelled Data In Machine Learning</title>
+                <meta name="description" content="In machine learning, labelled and unlabelled data are two distinct types of data that are used to train algorithms. Labelled data is data that has been labeled with a specific class or category, while unlabelled data is data that has not been labeled. In this blog article, we will explore the differences between labelled and unlabelled data and how they can be used in machine learning. 
+
+Labelled data is typically used in supervised learning algorithms, which require the algorithm to">
+
+                <!--STYLES -->
+                <link rel="stylesheet" href="./styles.css" type="text/css">
+                <link rel="stylesheet" href="./articles cards.css">
+
+                <!--FONTS-->
+                <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:wght@700&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+                <!--NAVBAR AND FOOTER-->
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+                <script>
+                    fetch('./../nav.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('nav').innerHTML = text);
+
+                    fetch('./../cards.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('cards').innerHTML = text);
+
+                    fetch('./../foo.html')
+                        .then(response => response.text())
+                        .then(text => document.getElementById('foo').innerHTML = text);
+                </script>
+
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-64GTLWQV26"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-64GTLWQV26');
+                </script>
+
+                <!--Google AdSense-->
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5935670094377969" crossorigin="anonymous"></script>
+            </head>
+
+            <body >
+                <div class="sidebar-off">
+                    <div class="article-box">
+                        <main class="main-block-wrap main">
+                            <article>
+                                <div id='nav'></div>
+                                
+                                <span class="read-time">13 min read</span>
+                                
+                                <div class="title-wrap">
+                                    <h1 class="entry-title">Understanding The Difference Between Labelled And Unlabelled Data In Machine Learning</h1>
+                                </div>
+                                <div class="sharing">
+                                    <a class="tweet-link"
+                                        href="https://twitter.com/intent/tweet?text=Read%20this:%20https%3A%2F%2Fwww.cscourses.dev%2Farticles%2Fthe%2520differences%2520between%2520labelled%2520and%2520unlabelled%2520data%2520in%2520machine%2520learning.html"><img
+                                            src="https://i.pinimg.com/564x/a7/bd/a3/a7bda33980fda6ca63039eef71637618.jpg"
+                                            alt="Tweet" onmouseover="this.title='Tweet';"
+                                            onmouseout="this.title='';"></a>
+                                </div>
+
+                                <div class="article-block">
+                                    <div>
+                                        <h2 class="author">Author: <a
+                                                href="https://openai.com/blog/chatgpt/"
+                                                target="_blank">ChatGPT</a></h2>
+                                    </div>
+                                    <p class="date">April 02, 2023</p>
+
+                                    			
+<h3>Introduction</h3>
+<p>Data is an essential part of machine learning. It is used to train algorithms and build models that can be used to make predictions. But not all data is created equal. In this blog post, we will explore the differences between labelled and unlabelled data in machine learning, and how each type of data can be used to create powerful models.</p>			
+<h3>What is Labelled Data?</h3>
+<p>Labelled data is a type of data that has been labeled with a specific class or category. This type of data is often used in supervised learning, where the goal is to predict a certain outcome based on input features. Labelled data consists of input features (also known as independent variables) and an output label (also known as dependent variable). The output label tells us what class or category the input features belong to. For example, if we are trying to classify images of cats and dogs, our labelled dataset would consist of images of cats and dogs along with their corresponding labels (“cat” or “dog”).</p>
+<img class="article-image" src="https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="woman-sitting-in-front-of-macbook" decoding="async” loading=" lazy">			
+<h3>What is Unlabelled Data?</h3>
+<p>Unlabelled data, on the other hand, does not have any labels associated with it. This type of data is often used in unsupervised learning, where the goal is to discover patterns or relationships within the data without any prior knowledge about what those patterns might be. Unlabelled datasets consist only of input features; there are no output labels associated with them. For example, if we are trying to cluster images into different categories, our unlabelled dataset would consist only of images without any labels attached to them.</p>
+<img class="article-image" src="https://images.pexels.com/photos/3811082/pexels-photo-3811082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="photo-of-women-at-the-meeting" decoding="async” loading=" lazy">			
+<h3>How Can Labelled Data Be Used in Machine Learning?</h3>
+<p>Labelled datasets are often used for supervised learning tasks such as classification and regression. In classification tasks, labelled datasets are used to train algorithms so that they can accurately predict which class or category a given set of input features belongs to. For example, if we have a labelled dataset consisting of images of cats and dogs along with their corresponding labels (“cat” or “dog”), we can use this dataset to train an algorithm so that it can accurately classify new images as either “cat” or “dog” based on their visual characteristics alone.</p>
+<p>In regression tasks, labelled datasets are used to train algorithms so that they can accurately predict a continuous value based on input features. For example, if we have a labelled dataset consisting of house prices along with their corresponding square footage values, we can use this dataset to train an algorithm so that it can accurately predict the price of a house based on its square footage alone.</p>			
+<h3>How Can Unlabelled Data Be Used in Machine Learning?</h3>
+<p>Unlabelled datasets are often used for unsupervised learning tasks such as clustering and anomaly detection. In clustering tasks, unlabelled datasets are used to group similar items together without any prior knowledge about what those groups might be. For example, if we have an unlabelled dataset consisting only of images without any labels attached to them, we can use this dataset to cluster similar images together without knowing beforehand which categories those clusters might represent (e.g., cats vs dogs).</p>
+<p>In anomaly detection tasks, unlabelled datasets are used to detect outliers or anomalies within the data without any prior knowledge about what those anomalies might be. For example, if we have an unlabelled dataset consisting only of customer purchase histories without any labels attached to them (e.g., fraudulent vs non-fraudulent), we can use this dataset to detect unusual patterns within customer purchase histories that may indicate fraudulent activity without knowing beforehand which purchases might be fraudulent or not fraudulent.</p>			
+<h3>Conclusion</h3>
+<p>In conclusion, labelled and unlabelled data both play important roles in machine learning applications; however they serve different purposes depending on the task at hand. Labeled datasets are typically used for supervised learning tasks such as classification and regression while unlabeled datasets are typically used for unsupervised learning tasks such as clustering and anomaly detection I highly recommend exploring these related articles, which will provide valuable insights and help you gain a more comprehensive understanding of the subject matter.:<a href='https://www.cscourses.dev/articles/machine%20learning%20the%20recovery%20of%20missing%20firm%20characteristics.html'>www.cscourses.dev/machine-learning-the-recovery-of-missing-firm-characteristics.html</a>, <a href='https://www.cscourses.dev/articles/what%20are%20machine%20learning%20algorithms%20used%20for.html'>www.cscourses.dev/what-are-machine-learning-algorithms-used-for.html</a>, <a href='https://www.cscourses.dev/articles/how%20long%20has%20machine%20learning%20been%20around.html'>www.cscourses.dev/how-long-has-machine-learning-been-around.html</a></p>
+<img class="article-image" src="https://images.pexels.com/photos/7319166/pexels-photo-7319166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="blank-visiting-card-on-pink-background" decoding="async” loading=" lazy">
+
+                                    <div id='cards'></div>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+
+                <div id='foo'></div>
+            </body>
+        </html>
+        
+        
