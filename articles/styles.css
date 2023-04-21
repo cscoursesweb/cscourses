@@ -1,4 +1,4 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,li,summary{
+article,aside,details,figure,footer,header,hgroup,main,nav,section,li,summary{
     display:block
 }
 h1,h2,h3,h4,h5,h6,p,blockquote,figure,ol,dl{
@@ -181,6 +181,17 @@ div.jvectormap-tip {
     font-style: bold;
 }
 
+figcaption{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figcaption a {
+    text-decoration: underline;
+  }
+
 span.read-time,
 p.card-body-p,
 small.user-info-small,
@@ -298,10 +309,6 @@ p{
     font-family: 'Barlow', sans-serif;
     margin: 0px 0px 20px;
     max-width: 827px;
-}
-
-.article-image{
-    margin-bottom: 20px;
 }
 
 ::selection {
