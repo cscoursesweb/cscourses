@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-04-21</lastmod>
+      <lastmod>2023-04-22</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -4503,5 +4503,17 @@
     <url>
         <loc>https://www.cscourses.dev/articles/how%20long%20does%20it%20take%20to%20sell%20stock%20and%20get%20money.html</loc>
         <lastmod>2023-04-21</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/can%20day%20trading%20be%20automated.html</loc>
+        <lastmod>2023-04-22</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20is%20tesla.html</loc>
+        <lastmod>2023-04-22</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/the%20stock%20market%20explained.html</loc>
+        <lastmod>2023-04-22</lastmod>
     </url>
 </urlset>
