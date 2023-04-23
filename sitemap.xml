@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-04-22</lastmod>
+      <lastmod>2023-04-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -4519,5 +4519,9 @@
     <url>
         <loc>https://www.cscourses.dev/articles/who%20created%20the%20first%20stock%20exchange.html</loc>
         <lastmod>2023-04-22</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/what%20percent%20of%20the%20population%20invests%20in%20the%20stock%20market.html</loc>
+        <lastmod>2023-04-23</lastmod>
     </url>
 </urlset>
