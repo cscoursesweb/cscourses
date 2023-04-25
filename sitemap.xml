@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-04-23</lastmod>
+      <lastmod>2023-04-25</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -4571,5 +4571,9 @@
     <url>
         <loc>https://www.cscourses.dev/articles/what%20is%20real%20estate%20trusts.html</loc>
         <lastmod>2023-04-23</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/is%20it%20hard%20to%20get%20a%2010%20percent%20investment%20return%20in%20the%20stock%20market%20without%20risking%20it%20too%20much.html</loc>
+        <lastmod>2023-04-25</lastmod>
     </url>
 </urlset>
