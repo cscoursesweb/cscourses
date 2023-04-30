@@ -1,3 +1,12 @@
+
+
+p mark{
+    background-color: #95BDFF;
+    border-radius: 3px;
+    padding: 0 5px;
+
+}
+
 article,aside,details,figure,footer,header,hgroup,main,nav,section,li,summary{
     display:block
 }

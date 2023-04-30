@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://www.cscourses.dev/index.html</loc>
-      <lastmod>2023-04-25</lastmod>
+      <lastmod>2023-04-30</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.0</priority>
     </url>
@@ -4675,5 +4675,9 @@
     <url>
         <loc>https://www.cscourses.dev/articles/how%20do%20non%20dividend%20stocks%20make%20you%20money.html</loc>
         <lastmod>2023-04-25</lastmod>
+    </url>
+    <url>
+        <loc>https://www.cscourses.dev/articles/where%20and%20how%20do%20you%20invest%20your%20monthly%20salary.html</loc>
+        <lastmod>2023-04-30</lastmod>
     </url>
 </urlset>
